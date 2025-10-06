@@ -944,7 +944,6 @@ PRODUCT_COPY_FILES += \
  vendor/sts/a04br3/proprietary/vendor/lib64/libsink.so:system/vendor/lib64/libsink.so \
  vendor/sts/a04br3/proprietary/vendor/lib64/libsource.so:system/vendor/lib64/libsource.so \
  vendor/sts/a04br3/proprietary/vendor/lib64/libgpu_aux.so:system/vendor/lib64/libgpu_aux.so \
- vendor/sts/a04br3/proprietary/vendor/data/misc/ProjectConfig.mk:system/vendor/data/misc/ProjectConfig.mk \
  vendor/sts/a04br3/proprietary/vendor/bin/akmd8963:system/vendor/bin/akmd8963 \
  vendor/sts/a04br3/proprietary/vendor/bin/orientationd:system/vendor/bin/orientationd \
  vendor/sts/a04br3/proprietary/vendor/bin/mobile_log_d:system/vendor/bin/mobile_log_d \
