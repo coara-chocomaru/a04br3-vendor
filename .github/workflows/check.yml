@@ -23,11 +23,11 @@ jobs:
 
       - name: Copy files to vendor/sts/a04br3
         run: |
-          mkdir -p vendor/sts/a04br3/proprietary
-          cp -r ./* vendor/sts/a04br3/proprietary/ 2>/dev/null || true
+          mkdir -p vendor/sts/a04br3
+          cp -r ./* vendor/sts/a04br3/ 2>/dev/null || true
           # Ensure the .mk file is in the correct location
           if [ -f "a04br3-vendor-blobs.mk" ]; then
-            cp a04br3-vendor-blobs.mk vendor/sts/a04br3/proprietary/
+            cp a04br3-vendor-blobs.mk vendor/sts/a04br3/
           else
             echo "Error: a04br3-vendor-blobs.mk not found in repository root"
             exit 1
@@ -39,15 +39,15 @@ jobs:
           import os
           import re
 
-          mk_file = 'vendor/sts/a04br3/proprietary/a04br3-vendor-blobs.mk'
-          repo_dir = 'vendor/sts/a04br3/proprietary'
+          mk_file = 'vendor/sts/a04br3/a04br3-vendor-blobs.mk'
+          repo_dir = 'vendor/sts/a04br3'
 
           registered = set()
           try:
               with open(mk_file, 'r') as f:
                   for line in f:
                       line = line.strip()
-                      if line.startswith('vendor/sts/a04br3/proprietary/') and ':' in line:
+                      if line.startswith('vendor/sts/a04br3/') and ':' in line:
                           path = line.split(':')[0].strip()
                           registered.add(path)
           except FileNotFoundError:
@@ -58,7 +58,7 @@ jobs:
           for root, dirs, files in os.walk(repo_dir):
               for file in files:
                   full_path = os.path.join(root, file)
-                  rel_path = os.path.join('vendor/sts/a04br3/proprietary', os.path.relpath(full_path, repo_dir))
+                  rel_path = os.path.join('vendor/sts/a04br3', os.path.relpath(full_path, repo_dir))
                   if rel_path != mk_file and not rel_path.startswith('.git/'):
                       repo_files.add(rel_path)
 
