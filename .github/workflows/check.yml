@@ -21,15 +21,20 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Copy files to vendor/sts/a04br3
+        run: |
+          mkdir -p vendor/sts/a04br3/proprietary
+          cp -r ./* vendor/sts/a04br3/proprietary/ 2>/dev/null || true
+
       - name: Extract registered files from .mk and list repo files
         run: |
           cat <<EOF > check_blobs.py
           import os
           import re
 
-          mk_file = 'a04br3-vendor-blobs.mk'
+          mk_file = 'a04br3-vendor-blobs.mk.txt'
 
-          repo_dir = '.'
+          repo_dir = 'vendor/sts/a04br3/proprietary'
 
           registered = set()
           with open(mk_file, 'r') as f:
