@@ -26,10 +26,10 @@ jobs:
           mkdir -p vendor/sts/a04br3/proprietary
           cp -r ./* vendor/sts/a04br3/proprietary/ 2>/dev/null || true
           # Ensure the .mk file is in the correct location
-          if [ -f "a04br3-vendor-blobs.mk.txt" ]; then
-            cp a04br3-vendor-blobs.mk.txt vendor/sts/a04br3/proprietary/
+          if [ -f "a04br3-vendor-blobs.mk" ]; then
+            cp a04br3-vendor-blobs.mk vendor/sts/a04br3/proprietary/
           else
-            echo "Error: a04br3-vendor-blobs.mk.txt not found in repository root"
+            echo "Error: a04br3-vendor-blobs.mk not found in repository root"
             exit 1
           fi
 
@@ -39,7 +39,7 @@ jobs:
           import os
           import re
 
-          mk_file = 'vendor/sts/a04br3/proprietary/a04br3-vendor-blobs.mk.txt'
+          mk_file = 'vendor/sts/a04br3/proprietary/a04br3-vendor-blobs.mk'
           repo_dir = 'vendor/sts/a04br3/proprietary'
 
           registered = set()
