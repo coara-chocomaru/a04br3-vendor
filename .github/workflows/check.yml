@@ -45,7 +45,7 @@ jobs:
               for line in f:
                   line = line.strip()
                   if line.startswith('vendor/sts/a04br3/proprietary/') and ':' in line:
-                      path = line.split(':')[0].rstrip(' \\')
+                      path = line.split(':')[0].rstrip(' \\\\')
                       registered.add(path.replace('vendor/sts/a04br3/proprietary/', ''))
 
           repo_files = set()
