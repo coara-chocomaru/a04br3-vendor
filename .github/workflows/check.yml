@@ -25,7 +25,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
-      - name: Copy files to vendor/sts/a04br3 (if needed)
+      - name: Copy files to vendor/sts/a04br3
         run: |
           mkdir -p vendor/sts/a04br3/proprietary
           echo "Files copied or already in place."
@@ -35,17 +35,19 @@ jobs:
           cat <<EOF > check_blobs.py
           import os
           import re
-          mk_file = 'a04br3-vendor-blobs.mk.txt'  # Adjust if name differs
+
+          mk_file = 'a04br3-vendor-blobs.mk.txt'
+
           repo_dir = 'vendor/sts/a04br3/proprietary'
+
           registered = set()
           with open(mk_file, 'r') as f:
               for line in f:
                   line = line.strip()
                   if line.startswith('vendor/sts/a04br3/proprietary/') and ':' in line:
-                      path = line.split(':')[0].strip(' \\')
+                      path = line.split(':')[0].rstrip(' \\')
                       registered.add(path.replace('vendor/sts/a04br3/proprietary/', ''))
 
-          # List all files in repo_dir recursively
           repo_files = set()
           for root, dirs, files in os.walk(repo_dir):
               for file in files:
@@ -53,11 +55,9 @@ jobs:
                   rel_path = os.path.relpath(full_path, repo_dir)
                   repo_files.add(rel_path)
 
-          # Find unregistered files
           unregistered = repo_files - registered
           unregistered_count = len(unregistered)
 
-          # Save to txt
           with open('unregistered_files.txt', 'w') as out:
               out.write(f"Total files in repository directory: {len(repo_files)}\n")
               out.write(f"Registered in .mk: {len(registered)}\n")
@@ -68,7 +68,7 @@ jobs:
 
           print(f"Unregistered files saved to unregistered_files.txt")
           print(f"Total repo files: {len(repo_files)}")
-          print(f"Matches .mk registered: {len(registered) == len(repo_files)}")  # Simple match check
+          print(f"Matches .mk registered: {len(registered) == len(repo_files)}")
           EOF
 
           python check_blobs.py
@@ -80,7 +80,7 @@ jobs:
           path: unregistered_files.txt
 
       - name: Create Release and Upload Report
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'  # Only on push to main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
