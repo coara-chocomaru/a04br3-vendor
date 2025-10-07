@@ -4,7 +4,7 @@ ifeq ($(TARGET_DEVICE),a04br3)
 
 include  
 LOCAL_MODULE := MTKLogger 
-LOCAL_MODULE_OWNER := sts
+LOCAL_MODULE_OWNER := STS-TOTTORI
 LOCAL_SRC_FILES := proprietary/vendor/app/MTKLogger/MTKLogger.apk 
 LOCAL_CERTIFICATE := platform 
 LOCAL_MODULE_TAGS := optional 
@@ -16,7 +16,7 @@ include
 
 include  
 LOCAL_MODULE := MTKThermalManager 
-LOCAL_MODULE_OWNER := sts
+LOCAL_MODULE_OWNER := STS-TOTTORI
 LOCAL_SRC_FILES := proprietary/vendor/app/MTKThermalManager/MTKThermalManager.apk 
 LOCAL_CERTIFICATE := platform 
 LOCAL_MODULE_TAGS := optional 
@@ -28,7 +28,7 @@ include
 
 include  
 LOCAL_MODULE := CustomPropInterface 
-LOCAL_MODULE_OWNER := sts
+LOCAL_MODULE_OWNER := STS-TOTTORI
 LOCAL_SRC_FILES := proprietary/vendor/framework/CustomPropInterface.jar 
 LOCAL_CERTIFICATE := platform 
 LOCAL_MODULE_TAGS := optional 
@@ -39,7 +39,7 @@ include
 
 include  
 LOCAL_MODULE := mediatek-res 
-LOCAL_MODULE_OWNER := sts
+LOCAL_MODULE_OWNER := STS-TOTTORI
 LOCAL_SRC_FILES := proprietary/vendor/framework/mediatek-res/mediatek-res.apk 
 LOCAL_CERTIFICATE := platform 
 LOCAL_MODULE_TAGS := optional 
