@@ -48,8 +48,8 @@ jobs:
                   for line in f:
                       line = line.strip()
                       if line.startswith('vendor/sts/a04br3/proprietary/') and ':' in line:
-                          path = line.split(':')[0].rstrip(' \\\\')
-                          registered.add(path.replace('vendor/sts/a04br3/proprietary/', ''))
+                          path = line.split(':')[0].strip()
+                          registered.add(path)
           except FileNotFoundError:
               print(f"Error: {mk_file} not found")
               exit(1)
@@ -58,8 +58,8 @@ jobs:
           for root, dirs, files in os.walk(repo_dir):
               for file in files:
                   full_path = os.path.join(root, file)
-                  rel_path = os.path.relpath(full_path, repo_dir)
-                  if rel_path != os.path.basename(mk_file) and not rel_path.startswith('.git/'):
+                  rel_path = os.path.join('vendor/sts/a04br3/proprietary', os.path.relpath(full_path, repo_dir))
+                  if rel_path != mk_file and not rel_path.startswith('.git/'):
                       repo_files.add(rel_path)
 
           unregistered = repo_files - registered
