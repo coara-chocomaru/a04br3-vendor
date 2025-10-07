@@ -29,7 +29,7 @@ jobs:
 
           mk_file = 'a04br3-vendor-blobs.mk'
 
-          repo_dir = 'vendor/sts/a04br3/proprietary'
+          repo_dir = '.'
 
           registered = set()
           with open(mk_file, 'r') as f:
@@ -44,7 +44,8 @@ jobs:
               for file in files:
                   full_path = os.path.join(root, file)
                   rel_path = os.path.relpath(full_path, repo_dir)
-                  repo_files.add(rel_path)
+                  if rel_path != mk_file and not rel_path.startswith('.git/'):
+                      repo_files.add(rel_path)
 
           unregistered = repo_files - registered
           unregistered_count = len(unregistered)
@@ -69,17 +70,3 @@ jobs:
         with:
           name: unregistered-files-report
           path: unregistered_files.txt
-
-      - name: Create Release and Upload Report
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag: v${{ github.run_number }}
-          name: Vendor Blobs Check Report ${{ github.run_number }}
-          body: |
-            Automated check of vendor blobs against .mk file.
-            See attached unregistered_files.txt for details.
-          draft: false
-          prerelease: false
-          files: unregistered_files.txt
-          token: ${{ secrets.GITHUB_TOKEN }}
