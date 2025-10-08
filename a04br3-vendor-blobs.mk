@@ -1,4 +1,19 @@
 PRODUCT_COPY_FILES += \
+vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-common.art:system/framework/arm/boot-mediatek-common.art \
+vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-common.oat:system/framework/arm/boot-mediatek-common.oat \
+vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-framework.art:system/framework/arm/boot-mediatek-framework.art \
+vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-framework.oat:system/framework/arm/boot-mediatek-framework.oat \
+vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-telephony-common.art:system/framework/arm/boot-mediatek-telephony-common.art \
+vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-telephony-common.oat:system/framework/arm/boot-mediatek-telephony-common.oat \
+vendor/sts/a04br3/proprietary/framework/arm64/boot-mediatek-common.art:system/framework/arm64/boot-mediatek-common.art \
+vendor/sts/a04br3/proprietary/framework/arm64/boot-mediatek-common.oat:system/framework/arm64/boot-mediatek-common.oat \
+vendor/sts/a04br3/proprietary/framework/arm64/boot-mediatek-framework.art:system/framework/arm64/boot-mediatek-framework.art \
+vendor/sts/a04br3/proprietary/framework/arm64/boot-mediatek-framework.oat:system/framework/arm64/boot-mediatek-framework.oat \
+vendor/sts/a04br3/proprietary/framework/arm64/boot-mediatek-telephony-common.art:system/framework/arm64/boot-mediatek-telephony-common.art \
+vendor/sts/a04br3/proprietary/framework/arm64/boot-mediatek-telephony-common.oat:system/framework/arm64/boot-mediatek-telephony-common.oat \
+vendor/sts/a04br3/proprietary/framework/mediatek-common.jar:system/framework/mediatek-common.jar \
+vendor/sts/a04br3/proprietary/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar \
+vendor/sts/a04br3/proprietary/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar \
 vendor/sts/a04br3/proprietary/bin/linker64:system/bin/linker64 \
 vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
 vendor/sts/a04br3/proprietary/bin/lmkd:system/bin/lmkd \
