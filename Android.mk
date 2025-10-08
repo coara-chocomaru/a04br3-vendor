@@ -35,7 +35,40 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES 
 LOCAL_MODULE_SUFFIX := .jar 
 LOCAL_VENDOR_MODULE := true 
-include 
+include
+
+include  
+LOCAL_MODULE := mediatek-common
+LOCAL_MODULE_OWNER := STS-TOTTORI
+LOCAL_SRC_FILES := proprietary/framework/mediatek-common.jar
+LOCAL_CERTIFICATE := platform 
+LOCAL_MODULE_TAGS := optional 
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES 
+LOCAL_MODULE_SUFFIX := .jar 
+LOCAL_VENDOR_MODULE := true 
+include
+
+include  
+LOCAL_MODULE := mediatek-framework
+LOCAL_MODULE_OWNER := STS-TOTTORI
+LOCAL_SRC_FILES := proprietary/framework/mediatek-framework.jar
+LOCAL_CERTIFICATE := platform 
+LOCAL_MODULE_TAGS := optional 
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES 
+LOCAL_MODULE_SUFFIX := .jar 
+LOCAL_VENDOR_MODULE := true 
+include
+
+include  
+LOCAL_MODULE := mediatek-telephony-common
+LOCAL_MODULE_OWNER := STS-TOTTORI
+LOCAL_SRC_FILES := proprietary/framework/mediatek-telephony-common.jar
+LOCAL_CERTIFICATE := platform 
+LOCAL_MODULE_TAGS := optional 
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES 
+LOCAL_MODULE_SUFFIX := .jar 
+LOCAL_VENDOR_MODULE := true 
+include
 
 include  
 LOCAL_MODULE := mediatek-res 
