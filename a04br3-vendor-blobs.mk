@@ -59,11 +59,8 @@ vendor/sts/a04br3/proprietary/bin/newfs_msdos:system/bin/newfs_msdos \
 vendor/sts/a04br3/proprietary/bin/nice:system/bin/nice \
 vendor/sts/a04br3/proprietary/bin/nl:system/bin/nl \
 vendor/sts/a04br3/proprietary/bin/nohup:system/bin/nohup \
-vendor/sts/a04br3/proprietary/bin/oatdump:system/bin/oatdump \
 vendor/sts/a04br3/proprietary/bin/od:system/bin/od \
 vendor/sts/a04br3/proprietary/bin/paste:system/bin/paste \
-vendor/sts/a04br3/proprietary/bin/patch:system/bin/patch \
-vendor/sts/a04br3/proprietary/bin/patchoat:system/bin/patchoat \
 vendor/sts/a04br3/proprietary/bin/pgrep:system/bin/pgrep \
 vendor/sts/a04br3/proprietary/bin/pidof:system/bin/pidof \
 vendor/sts/a04br3/proprietary/bin/ping6:system/bin/ping6 \
@@ -1440,3 +1437,8 @@ vendor/sts/a04br3/proprietary/vendor/res/sound/ringtone.wav:system/vendor/res/so
 vendor/sts/a04br3/proprietary/vendor/res/sound/testpattern1.wav:system/vendor/res/sound/testpattern1.wav \
 vendor/sts/a04br3/proprietary/xbin/dexlist:system/xbin/dexlist \
 vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
+
+# 一時的に除外
+#vendor/sts/a04br3/proprietary/bin/oatdump:system/bin/oatdump \
+#vendor/sts/a04br3/proprietary/bin/patch:system/bin/patch \
+#vendor/sts/a04br3/proprietary/bin/patchoat:system/bin/patchoat \
