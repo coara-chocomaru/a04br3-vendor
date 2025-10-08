@@ -1427,3 +1427,12 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/res/sound/testpattern1.wav:system/vendor/res/sound/testpattern1.wav \
     vendor/sts/a04br3/proprietary/xbin/dexlist:system/xbin/dexlist \
     vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
+
+    PRODUCT_PACKAGES += \
+    MTKLogger \
+    MTKThermalManager \
+    CustomPropInterface \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-telephony-common \
+    mediatek-res
