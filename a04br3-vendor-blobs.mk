@@ -942,6 +942,7 @@ vendor/sts/a04br3/proprietary/vendor/etc/ipsec/updown_script:system/vendor/etc/i
 vendor/sts/a04br3/proprietary/vendor/etc/ipsec/wod_cust.conf:system/vendor/etc/ipsec/wod_cust.conf \
 vendor/sts/a04br3/proprietary/vendor/etc/ipsec/wod_optr.conf:system/vendor/etc/ipsec/wod_optr.conf \
 vendor/sts/a04br3/proprietary/vendor/etc/mixer_paths.xml:system/vendor/etc/mixer_paths.xml \
+vendor/sts/a04br3/proprietary/vendor/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
 vendor/sts/a04br3/proprietary/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
 vendor/sts/a04br3/proprietary/vendor/etc/mtklog-config.prop:system/vendor/etc/mtklog-config.prop \
 vendor/sts/a04br3/proprietary/vendor/etc/partition_permission.sh:system/vendor/etc/partition_permission.sh \
