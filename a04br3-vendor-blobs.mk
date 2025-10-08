@@ -1,4 +1,7 @@
 PRODUCT_COPY_FILES += \
+
+vendor/sts/a04br3/proprietary/bin/dex2oat:system/bin/dex2oat \
+vendor/sts/a04br3/proprietary/bin/keystore:system/bin/keystore \
 vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-common.art:system/framework/arm/boot-mediatek-common.art \
 vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-common.oat:system/framework/arm/boot-mediatek-common.oat \
 vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-framework.art:system/framework/arm/boot-mediatek-framework.art \
