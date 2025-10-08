@@ -1,7 +1,4 @@
 PRODUCT_COPY_FILES += \
-
-vendor/sts/a04br3/proprietary/bin/dex2oat:system/bin/dex2oat \
-vendor/sts/a04br3/proprietary/bin/keystore:system/bin/keystore \
 vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-common.art:system/framework/arm/boot-mediatek-common.art \
 vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-common.oat:system/framework/arm/boot-mediatek-common.oat \
 vendor/sts/a04br3/proprietary/framework/arm/boot-mediatek-framework.art:system/framework/arm/boot-mediatek-framework.art \
@@ -29,6 +26,7 @@ vendor/sts/a04br3/proprietary/bin/logname:system/bin/logname \
 vendor/sts/a04br3/proprietary/bin/logwrapper:system/bin/logwrapper \
 vendor/sts/a04br3/proprietary/bin/losetup:system/bin/losetup \
 vendor/sts/a04br3/proprietary/bin/ls:system/bin/ls \
+vendor/sts/a04br3/proprietary/bin/keystore:system/bin/keystore \
 vendor/sts/a04br3/proprietary/bin/lsmod:system/bin/lsmod \
 vendor/sts/a04br3/proprietary/bin/lsof:system/bin/lsof \
 vendor/sts/a04br3/proprietary/bin/lsusb:system/bin/lsusb \
