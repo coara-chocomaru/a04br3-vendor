@@ -81,7 +81,6 @@ vendor/sts/a04br3/proprietary/bin/realpath:system/bin/realpath \
 vendor/sts/a04br3/proprietary/bin/reboot:system/bin/reboot \
 vendor/sts/a04br3/proprietary/bin/renice:system/bin/renice \
 vendor/sts/a04br3/proprietary/bin/requestsync:system/bin/requestsync \
-vendor/sts/a04br3/proprietary/bin/resize2fs:system/bin/resize2fs \
 vendor/sts/a04br3/proprietary/bin/restorecon:system/bin/restorecon \
 vendor/sts/a04br3/proprietary/bin/rm:system/bin/rm \
 vendor/sts/a04br3/proprietary/bin/rmdir:system/bin/rmdir \
@@ -1442,3 +1441,4 @@ vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 # 一時的に除外
 #vendor/sts/a04br3/proprietary/etc/compiled-classes:system/etc/compiled-classes \
 #vendor/sts/a04br3/proprietary/bin/mkdir:system/bin/mkdir \
+#vendor/sts/a04br3/proprietary/bin/resize2fs:system/bin/resize2fs \
