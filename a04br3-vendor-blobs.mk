@@ -911,10 +911,6 @@ vendor/sts/a04br3/proprietary/vendor/firmware/rgx.fw.signed.e1:system/vendor/fir
 vendor/sts/a04br3/proprietary/vendor/firmware/rgx.fw.signed:system/vendor/firmware/rgx.fw.signed \
 vendor/sts/a04br3/proprietary/vendor/firmware/WIFI_RAM_CODE_MT6630:system/vendor/firmware/WIFI_RAM_CODE_MT6630 \
 vendor/sts/a04br3/proprietary/vendor/firmware/WMT.cfg:system/vendor/firmware/WMT.cfg \
-vendor/sts/a04br3/proprietary/vendor/framework/CustomPropInterface.jar:system/vendor/framework/CustomPropInterface.jar \
-vendor/sts/a04br3/proprietary/vendor/framework/mediatek-res/mediatek-res.apk:system/vendor/framework/mediatek-res/mediatek-res.apk \
-vendor/sts/a04br3/proprietary/vendor/framework/oat/arm/CustomPropInterface.odex:system/vendor/framework/oat/arm/CustomPropInterface.odex \
-vendor/sts/a04br3/proprietary/vendor/framework/oat/arm64/CustomPropInterface.odex:system/vendor/framework/oat/arm64/CustomPropInterface.odex \
 vendor/sts/a04br3/proprietary/vendor/lib/egl/egl.cfg:system/vendor/lib/egl/egl.cfg \
 vendor/sts/a04br3/proprietary/vendor/lib/egl/libEGL_mtk.so:system/vendor/lib/egl/libEGL_mtk.so \
 vendor/sts/a04br3/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so:system/vendor/lib/egl/libGLESv1_CM_mtk.so \
