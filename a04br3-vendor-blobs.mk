@@ -471,8 +471,6 @@ vendor/sts/a04br3/proprietary/lib64/libdefcontainer_jni.so:system/lib64/libdefco
 vendor/sts/a04br3/proprietary/lib64/libdiskconfig.so:system/lib64/libdiskconfig.so \
 vendor/sts/a04br3/proprietary/lib64/libdng_sdk.so:system/lib64/libdng_sdk.so \
 vendor/sts/a04br3/proprietary/lib64/libdrm.so:system/lib64/libdrm.so \
-vendor/sts/a04br3/proprietary/lib64/libdrmframework.so:system/lib64/libdrmframework.so \
-vendor/sts/a04br3/proprietary/lib64/libdrmframework_jni.so:system/lib64/libdrmframework_jni.so \
 vendor/sts/a04br3/proprietary/lib64/libeffects.so:system/lib64/libeffects.so \
 vendor/sts/a04br3/proprietary/lib64/libEGL.so:system/lib64/libEGL.so \
 vendor/sts/a04br3/proprietary/lib64/libETC1.so:system/lib64/libETC1.so \
@@ -1425,6 +1423,8 @@ vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 #vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
 #vendor/sts/a04br3/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
 #vendor/sts/a04br3/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
+#vendor/sts/a04br3/proprietary/lib64/libdrmframework.so:system/lib64/libdrmframework.so \
+#vendor/sts/a04br3/proprietary/lib64/libdrmframework_jni.so:system/lib64/libdrmframework_jni.so \
 
 # vendor/sts/a04br3/proprietary/lib/libc.so:system/lib/libc.so \
 # vendor/sts/a04br3/proprietary/lib/libm.so:system/lib/libm.so \
