@@ -202,10 +202,6 @@ vendor/sts/a04br3/proprietary/lib/hw/power.default.so:system/lib/hw/power.defaul
 vendor/sts/a04br3/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
 vendor/sts/a04br3/proprietary/lib/liba3m.so:system/lib/liba3m.so \
 vendor/sts/a04br3/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
-vendor/sts/a04br3/proprietary/lib/libandroid.so:system/lib/libandroid.so \
-vendor/sts/a04br3/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
-vendor/sts/a04br3/proprietary/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
-vendor/sts/a04br3/proprietary/lib/libandroidfw.so:system/lib/libandroidfw.so \
 vendor/sts/a04br3/proprietary/lib/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
 vendor/sts/a04br3/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
 vendor/sts/a04br3/proprietary/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
@@ -224,8 +220,6 @@ vendor/sts/a04br3/proprietary/lib/libbinary_parse.so:system/lib/libbinary_parse.
 vendor/sts/a04br3/proprietary/lib/libbinder.so:system/lib/libbinder.so \
 vendor/sts/a04br3/proprietary/lib/libblas.so:system/lib/libblas.so \
 vendor/sts/a04br3/proprietary/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
-vendor/sts/a04br3/proprietary/lib/libc++.so:system/lib/libc++.so \
-vendor/sts/a04br3/proprietary/lib/libc.so:system/lib/libc.so \
 vendor/sts/a04br3/proprietary/lib/libc_malloc_debug.so:system/lib/libc_malloc_debug.so \
 vendor/sts/a04br3/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
 vendor/sts/a04br3/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
@@ -240,11 +234,8 @@ vendor/sts/a04br3/proprietary/lib/libclcore_neon.bc:system/lib/libclcore_neon.bc
 vendor/sts/a04br3/proprietary/lib/libcompiler_rt.so:system/lib/libcompiler_rt.so \
 vendor/sts/a04br3/proprietary/lib/libcrypto.so:system/lib/libcrypto.so \
 vendor/sts/a04br3/proprietary/lib/libcutils.so:system/lib/libcutils.so \
-vendor/sts/a04br3/proprietary/lib/libdl.so:system/lib/libdl.so \
 vendor/sts/a04br3/proprietary/lib/libdng_sdk.so:system/lib/libdng_sdk.so \
 vendor/sts/a04br3/proprietary/lib/libdrm.so:system/lib/libdrm.so \
-vendor/sts/a04br3/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
-vendor/sts/a04br3/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
 vendor/sts/a04br3/proprietary/lib/libeffects.so:system/lib/libeffects.so \
 vendor/sts/a04br3/proprietary/lib/libEGL.so:system/lib/libEGL.so \
 vendor/sts/a04br3/proprietary/lib/libETC1.so:system/lib/libETC1.so \
@@ -297,7 +288,6 @@ vendor/sts/a04br3/proprietary/lib/libLLVM.so:system/lib/libLLVM.so \
 vendor/sts/a04br3/proprietary/lib/liblog.so:system/lib/liblog.so \
 vendor/sts/a04br3/proprietary/lib/liblz4.so:system/lib/liblz4.so \
 vendor/sts/a04br3/proprietary/lib/liblzma.so:system/lib/liblzma.so \
-vendor/sts/a04br3/proprietary/lib/libm.so:system/lib/libm.so \
 vendor/sts/a04br3/proprietary/lib/libmdnssd.so:system/lib/libmdnssd.so \
 vendor/sts/a04br3/proprietary/lib/libmedia.so:system/lib/libmedia.so \
 vendor/sts/a04br3/proprietary/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
@@ -400,7 +390,6 @@ vendor/sts/a04br3/proprietary/lib/libstagefright_soft_vpxdec.so:system/lib/libst
 vendor/sts/a04br3/proprietary/lib/libstagefright_soft_vpxenc.so:system/lib/libstagefright_soft_vpxenc.so \
 vendor/sts/a04br3/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
 vendor/sts/a04br3/proprietary/lib/libstagefright_yuv.so:system/lib/libstagefright_yuv.so \
-vendor/sts/a04br3/proprietary/lib/libstdc++.so:system/lib/libstdc++.so \
 vendor/sts/a04br3/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
 vendor/sts/a04br3/proprietary/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
 vendor/sts/a04br3/proprietary/lib/libsuspend.so:system/lib/libsuspend.so \
@@ -449,10 +438,6 @@ vendor/sts/a04br3/proprietary/lib64/hw/power.default.so:system/lib64/hw/power.de
 vendor/sts/a04br3/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
 vendor/sts/a04br3/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
 vendor/sts/a04br3/proprietary/lib64/libalsautils.so:system/lib64/libalsautils.so \
-vendor/sts/a04br3/proprietary/lib64/libandroid.so:system/lib64/libandroid.so \
-vendor/sts/a04br3/proprietary/lib64/libandroid_runtime.so:system/lib64/libandroid_runtime.so \
-vendor/sts/a04br3/proprietary/lib64/libandroid_servers.so:system/lib64/libandroid_servers.so \
-vendor/sts/a04br3/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so \
 vendor/sts/a04br3/proprietary/lib64/libAppDataSearch.so:system/lib64/libAppDataSearch.so \
 vendor/sts/a04br3/proprietary/lib64/libappfuse_jni.so:system/lib64/libappfuse_jni.so \
 vendor/sts/a04br3/proprietary/lib64/libaudioeffect_jni.so:system/lib64/libaudioeffect_jni.so \
@@ -470,8 +455,6 @@ vendor/sts/a04br3/proprietary/lib64/libbcinfo.so:system/lib64/libbcinfo.so \
 vendor/sts/a04br3/proprietary/lib64/libbinary_parse.so:system/lib64/libbinary_parse.so \
 vendor/sts/a04br3/proprietary/lib64/libbinder.so:system/lib64/libbinder.so \
 vendor/sts/a04br3/proprietary/lib64/libblas.so:system/lib64/libblas.so \
-vendor/sts/a04br3/proprietary/lib64/libc++.so:system/lib64/libc++.so \
-vendor/sts/a04br3/proprietary/lib64/libc.so:system/lib64/libc.so \
 vendor/sts/a04br3/proprietary/lib64/libc_malloc_debug.so:system/lib64/libc_malloc_debug.so \
 vendor/sts/a04br3/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
 vendor/sts/a04br3/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
@@ -486,7 +469,6 @@ vendor/sts/a04br3/proprietary/lib64/libcrypto.so:system/lib64/libcrypto.so \
 vendor/sts/a04br3/proprietary/lib64/libcutils.so:system/lib64/libcutils.so \
 vendor/sts/a04br3/proprietary/lib64/libdefcontainer_jni.so:system/lib64/libdefcontainer_jni.so \
 vendor/sts/a04br3/proprietary/lib64/libdiskconfig.so:system/lib64/libdiskconfig.so \
-vendor/sts/a04br3/proprietary/lib64/libdl.so:system/lib64/libdl.so \
 vendor/sts/a04br3/proprietary/lib64/libdng_sdk.so:system/lib64/libdng_sdk.so \
 vendor/sts/a04br3/proprietary/lib64/libdrm.so:system/lib64/libdrm.so \
 vendor/sts/a04br3/proprietary/lib64/libdrmframework.so:system/lib64/libdrmframework.so \
@@ -556,7 +538,6 @@ vendor/sts/a04br3/proprietary/lib64/liblog.so:system/lib64/liblog.so \
 vendor/sts/a04br3/proprietary/lib64/liblogwrap.so:system/lib64/liblogwrap.so \
 vendor/sts/a04br3/proprietary/lib64/liblz4.so:system/lib64/liblz4.so \
 vendor/sts/a04br3/proprietary/lib64/liblzma.so:system/lib64/liblzma.so \
-vendor/sts/a04br3/proprietary/lib64/libm.so:system/lib64/libm.so \
 vendor/sts/a04br3/proprietary/lib64/libmdnssd.so:system/lib64/libmdnssd.so \
 vendor/sts/a04br3/proprietary/lib64/libmedia.so:system/lib64/libmedia.so \
 vendor/sts/a04br3/proprietary/lib64/libmedia_jni.so:system/lib64/libmedia_jni.so \
@@ -1442,3 +1423,25 @@ vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 #vendor/sts/a04br3/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
 #vendor/sts/a04br3/proprietary/bin/linker64:system/bin/linker64 \
 #vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
+#vendor/sts/a04br3/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
+#vendor/sts/a04br3/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
+
+# vendor/sts/a04br3/proprietary/lib/libc.so:system/lib/libc.so \
+# vendor/sts/a04br3/proprietary/lib/libm.so:system/lib/libm.so \
+# vendor/sts/a04br3/proprietary/lib/libdl.so:system/lib/libdl.so \
+# vendor/sts/a04br3/proprietary/lib/libc++.so:system/lib/libc++.so \
+# vendor/sts/a04br3/proprietary/lib/libstdc++.so:system/lib/libstdc++.so \
+# vendor/sts/a04br3/proprietary/lib/libandroid.so:system/lib/libandroid.so \
+# vendor/sts/a04br3/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
+# vendor/sts/a04br3/proprietary/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
+# vendor/sts/a04br3/proprietary/lib/libandroidfw.so:system/lib/libandroidfw.so \
+# 64-bit
+# vendor/sts/a04br3/proprietary/lib64/libc.so:system/lib64/libc.so \
+# vendor/sts/a04br3/proprietary/lib64/libm.so:system/lib64/libm.so \
+# vendor/sts/a04br3/proprietary/lib64/libdl.so:system/lib64/libdl.so \
+# vendor/sts/a04br3/proprietary/lib64/libc++.so:system/lib64/libc++.so \
+# vendor/sts/a04br3/proprietary/lib64/libstdc++.so:system/lib64/libstdc++.so \
+# vendor/sts/a04br3/proprietary/lib64/libandroid.so:system/lib64/libandroid.so \
+# vendor/sts/a04br3/proprietary/lib64/libandroid_runtime.so:system/lib64/libandroid_runtime.so \
+# vendor/sts/a04br3/proprietary/lib64/libandroid_servers.so:system/lib64/libandroid_servers.so \
+# vendor/sts/a04br3/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so \
