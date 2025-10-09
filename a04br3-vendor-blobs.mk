@@ -131,10 +131,7 @@ vendor/sts/a04br3/proprietary/bin/time:system/bin/time \
 vendor/sts/a04br3/proprietary/bin/timeout:system/bin/timeout \
 vendor/sts/a04br3/proprietary/bin/toolbox:system/bin/toolbox \
 vendor/sts/a04br3/proprietary/bin/top:system/bin/top \
-vendor/sts/a04br3/proprietary/bin/oatdump:system/bin/oatdump \
 vendor/sts/a04br3/proprietary/bin/patch:system/bin/patch \
-vendor/sts/a04br3/proprietary/bin/patchoat:system/bin/patchoat \
-vendor/sts/a04br3/proprietary/bin/dex2oat:system/bin/dex2oat \
 vendor/sts/a04br3/proprietary/bin/touch:system/bin/touch \
 vendor/sts/a04br3/proprietary/bin/toybox:system/bin/toybox \
 vendor/sts/a04br3/proprietary/bin/tr:system/bin/tr \
@@ -211,9 +208,6 @@ vendor/sts/a04br3/proprietary/lib/libandroid.so:system/lib/libandroid.so \
 vendor/sts/a04br3/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
 vendor/sts/a04br3/proprietary/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
 vendor/sts/a04br3/proprietary/lib/libandroidfw.so:system/lib/libandroidfw.so \
-vendor/sts/a04br3/proprietary/lib/libart-compiler.so:system/lib/libart-compiler.so \
-vendor/sts/a04br3/proprietary/lib/libart.so:system/lib/libart.so \
-vendor/sts/a04br3/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
 vendor/sts/a04br3/proprietary/lib/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
 vendor/sts/a04br3/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
 vendor/sts/a04br3/proprietary/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
@@ -463,10 +457,6 @@ vendor/sts/a04br3/proprietary/lib64/libandroid_servers.so:system/lib64/libandroi
 vendor/sts/a04br3/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so \
 vendor/sts/a04br3/proprietary/lib64/libAppDataSearch.so:system/lib64/libAppDataSearch.so \
 vendor/sts/a04br3/proprietary/lib64/libappfuse_jni.so:system/lib64/libappfuse_jni.so \
-vendor/sts/a04br3/proprietary/lib64/libart-compiler.so:system/lib64/libart-compiler.so \
-vendor/sts/a04br3/proprietary/lib64/libart-disassembler.so:system/lib64/libart-disassembler.so \
-vendor/sts/a04br3/proprietary/lib64/libart.so:system/lib64/libart.so \
-vendor/sts/a04br3/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
 vendor/sts/a04br3/proprietary/lib64/libaudioeffect_jni.so:system/lib64/libaudioeffect_jni.so \
 vendor/sts/a04br3/proprietary/lib64/libaudiopolicyenginedefault.so:system/lib64/libaudiopolicyenginedefault.so \
 vendor/sts/a04br3/proprietary/lib64/libaudiopolicymanager.so:system/lib64/libaudiopolicymanager.so \
@@ -1442,3 +1432,13 @@ vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 #vendor/sts/a04br3/proprietary/etc/compiled-classes:system/etc/compiled-classes \
 #vendor/sts/a04br3/proprietary/bin/mkdir:system/bin/mkdir \
 #vendor/sts/a04br3/proprietary/bin/resize2fs:system/bin/resize2fs \
+#vendor/sts/a04br3/proprietary/bin/oatdump:system/bin/oatdump \
+#vendor/sts/a04br3/proprietary/bin/patchoat:system/bin/patchoat \
+#vendor/sts/a04br3/proprietary/bin/dex2oat:system/bin/dex2oat \
+#vendor/sts/a04br3/proprietary/lib/libart-compiler.so:system/lib/libart-compiler.so \
+#vendor/sts/a04br3/proprietary/lib/libart.so:system/lib/libart.so \
+#vendor/sts/a04br3/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
+#vendor/sts/a04br3/proprietary/lib64/libart-compiler.so:system/lib64/libart-compiler.so \
+#vendor/sts/a04br3/proprietary/lib64/libart-disassembler.so:system/lib64/libart-disassembler.so \
+#vendor/sts/a04br3/proprietary/lib64/libart.so:system/lib64/libart.so \
+#vendor/sts/a04br3/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
