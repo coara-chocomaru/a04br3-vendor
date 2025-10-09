@@ -14,8 +14,6 @@ vendor/sts/a04br3/proprietary/framework/arm64/boot-mediatek-telephony-common.oat
 vendor/sts/a04br3/proprietary/framework/mediatek-common.jar:system/framework/mediatek-common.jar \
 vendor/sts/a04br3/proprietary/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar \
 vendor/sts/a04br3/proprietary/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar \
-vendor/sts/a04br3/proprietary/bin/linker64:system/bin/linker64 \
-vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
 vendor/sts/a04br3/proprietary/bin/lmkd:system/bin/lmkd \
 vendor/sts/a04br3/proprietary/bin/ln:system/bin/ln \
 vendor/sts/a04br3/proprietary/bin/load_policy:system/bin/load_policy \
@@ -1442,3 +1440,5 @@ vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 #vendor/sts/a04br3/proprietary/lib64/libart-disassembler.so:system/lib64/libart-disassembler.so \
 #vendor/sts/a04br3/proprietary/lib64/libart.so:system/lib64/libart.so \
 #vendor/sts/a04br3/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
+#vendor/sts/a04br3/proprietary/bin/linker64:system/bin/linker64 \
+#vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
