@@ -133,6 +133,9 @@ vendor/sts/a04br3/proprietary/bin/time:system/bin/time \
 vendor/sts/a04br3/proprietary/bin/timeout:system/bin/timeout \
 vendor/sts/a04br3/proprietary/bin/toolbox:system/bin/toolbox \
 vendor/sts/a04br3/proprietary/bin/top:system/bin/top \
+vendor/sts/a04br3/proprietary/bin/oatdump:system/bin/oatdump \
+vendor/sts/a04br3/proprietary/bin/patch:system/bin/patch \
+vendor/sts/a04br3/proprietary/bin/patchoat:system/bin/patchoat \
 vendor/sts/a04br3/proprietary/bin/dex2oat:system/bin/dex2oat \
 vendor/sts/a04br3/proprietary/bin/touch:system/bin/touch \
 vendor/sts/a04br3/proprietary/bin/toybox:system/bin/toybox \
@@ -1438,7 +1441,4 @@ vendor/sts/a04br3/proprietary/xbin/dexlist:system/xbin/dexlist \
 vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 
 # 一時的に除外
-#vendor/sts/a04br3/proprietary/bin/oatdump:system/bin/oatdump \
-#vendor/sts/a04br3/proprietary/bin/patch:system/bin/patch \
-#vendor/sts/a04br3/proprietary/bin/patchoat:system/bin/patchoat \
 #vendor/sts/a04br3/proprietary/etc/compiled-classes:system/etc/compiled-classes \
