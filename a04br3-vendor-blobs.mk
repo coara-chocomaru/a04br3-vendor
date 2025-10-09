@@ -172,7 +172,6 @@ vendor/sts/a04br3/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_
 vendor/sts/a04br3/proprietary/etc/bluetooth/bt_stack.conf.debug:system/etc/bluetooth/bt_stack.conf.debug \
 vendor/sts/a04br3/proprietary/etc/bluetooth/bt_stack.conf.sqc:system/etc/bluetooth/bt_stack.conf.sqc \
 vendor/sts/a04br3/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
-vendor/sts/a04br3/proprietary/etc/compiled-classes:system/etc/compiled-classes \
 vendor/sts/a04br3/proprietary/etc/default_volume_tables.xml:system/etc/default_volume_tables.xml \
 vendor/sts/a04br3/proprietary/etc/event-log-tags:system/etc/event-log-tags \
 vendor/sts/a04br3/proprietary/etc/fonts.xml:system/etc/fonts.xml \
@@ -1442,3 +1441,4 @@ vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 #vendor/sts/a04br3/proprietary/bin/oatdump:system/bin/oatdump \
 #vendor/sts/a04br3/proprietary/bin/patch:system/bin/patch \
 #vendor/sts/a04br3/proprietary/bin/patchoat:system/bin/patchoat \
+#vendor/sts/a04br3/proprietary/etc/compiled-classes:system/etc/compiled-classes \
