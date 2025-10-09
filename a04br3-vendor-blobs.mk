@@ -24,7 +24,6 @@ vendor/sts/a04br3/proprietary/lib64/libconscrypt_gmscore_jni.so:system/lib64/lib
 vendor/sts/a04br3/proprietary/lib64/libgmscore.so:system/lib64/libgmscore.so \
 vendor/sts/a04br3/proprietary/lib64/libgoogle-ocrclient-v3.so:system/lib64/libgoogle-ocrclient-v3.so \
 vendor/sts/a04br3/proprietary/lib64/libmediatek_exceptionlog.so:system/lib64/libmediatek_exceptionlog.so \
-vendor/sts/a04br3/proprietary/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
 vendor/sts/a04br3/proprietary/vendor/app/BtTool/BtTool.apk:system/vendor/app/BtTool/BtTool.apk \
 vendor/sts/a04br3/proprietary/vendor/app/BtTool/oat/arm64/BtTool.odex:system/vendor/app/BtTool/oat/arm64/BtTool.odex \
 vendor/sts/a04br3/proprietary/vendor/app/CalendarImporter/CalendarImporter.apk:system/vendor/app/CalendarImporter/CalendarImporter.apk \
@@ -419,7 +418,6 @@ vendor/sts/a04br3/proprietary/vendor/lib/libmemorydumper.so:system/vendor/lib/li
 vendor/sts/a04br3/proprietary/vendor/lib/libmemtrack_GL.so:system/vendor/lib/libmemtrack_GL.so \
 vendor/sts/a04br3/proprietary/vendor/lib/libmhalImageCodec.so:system/vendor/lib/libmhalImageCodec.so \
 vendor/sts/a04br3/proprietary/vendor/lib/libminiui.so:system/vendor/lib/libminiui.so \
-vendor/sts/a04br3/proprietary/vendor/lib/libMiraVision_jni.so:system/vendor/lib/libMiraVision_jni.so \
 vendor/sts/a04br3/proprietary/vendor/lib/libmjcFakeEngine.so:system/vendor/lib/libmjcFakeEngine.so \
 vendor/sts/a04br3/proprietary/vendor/lib/libmmprofile.so:system/vendor/lib/libmmprofile.so \
 vendor/sts/a04br3/proprietary/vendor/lib/libmmprofile_jni.so:system/vendor/lib/libmmprofile_jni.so \
@@ -636,7 +634,6 @@ vendor/sts/a04br3/proprietary/vendor/lib64/libmemorydumper.so:system/vendor/lib6
 vendor/sts/a04br3/proprietary/vendor/lib64/libmemtrack_GL.so:system/vendor/lib64/libmemtrack_GL.so \
 vendor/sts/a04br3/proprietary/vendor/lib64/libmhalImageCodec.so:system/vendor/lib64/libmhalImageCodec.so \
 vendor/sts/a04br3/proprietary/vendor/lib64/libminiui.so:system/vendor/lib64/libminiui.so \
-vendor/sts/a04br3/proprietary/vendor/lib64/libMiraVision_jni.so:system/vendor/lib64/libMiraVision_jni.so \
 vendor/sts/a04br3/proprietary/vendor/lib64/libmmprofile.so:system/vendor/lib64/libmmprofile.so \
 vendor/sts/a04br3/proprietary/vendor/lib64/libmmprofile_jni.so:system/vendor/lib64/libmmprofile_jni.so \
 vendor/sts/a04br3/proprietary/vendor/lib64/libmrdump.so:system/vendor/lib64/libmrdump.so \
