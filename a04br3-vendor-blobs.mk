@@ -135,7 +135,6 @@ vendor/sts/a04br3/proprietary/bin/uptime:system/bin/uptime \
 vendor/sts/a04br3/proprietary/bin/usleep:system/bin/usleep \
 vendor/sts/a04br3/proprietary/bin/vdc:system/bin/vdc \
 vendor/sts/a04br3/proprietary/bin/vmstat:system/bin/vmstat \
-vendor/sts/a04br3/proprietary/bin/vold:system/bin/vold \
 vendor/sts/a04br3/proprietary/bin/wc:system/bin/wc \
 vendor/sts/a04br3/proprietary/bin/which:system/bin/which \
 vendor/sts/a04br3/proprietary/bin/whoami:system/bin/whoami \
@@ -1368,3 +1367,4 @@ vendor/sts/a04br3/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so
 #vendor/sts/a04br3/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
 #vendor/sts/a04br3/proprietary/bin/linker64:system/bin/linker64 \
 #vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
+#vendor/sts/a04br3/proprietary/bin/vold:system/bin/vold \
