@@ -31,7 +31,6 @@ vendor/sts/a04br3/proprietary/bin/mktemp:system/bin/mktemp \
 vendor/sts/a04br3/proprietary/bin/modinfo:system/bin/modinfo \
 vendor/sts/a04br3/proprietary/bin/monkey:system/bin/monkey \
 vendor/sts/a04br3/proprietary/bin/more:system/bin/more \
-vendor/sts/a04br3/proprietary/bin/mount:system/bin/mount \
 vendor/sts/a04br3/proprietary/bin/mountpoint:system/bin/mountpoint \
 vendor/sts/a04br3/proprietary/bin/mtpd:system/bin/mtpd \
 vendor/sts/a04br3/proprietary/bin/mv:system/bin/mv \
@@ -1353,6 +1352,7 @@ vendor/sts/a04br3/proprietary/lib64/libandroid_runtime.so:system/lib64/libandroi
 vendor/sts/a04br3/proprietary/lib64/libandroid_servers.so:system/lib64/libandroid_servers.so \
 vendor/sts/a04br3/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so
 
+#vendor/sts/a04br3/proprietary/bin/mount:system/bin/mount\
 #vendor/sts/a04br3/proprietary/etc/compiled-classes:system/etc/compiled-classes \
 #vendor/sts/a04br3/proprietary/bin/mkdir:system/bin/mkdir \
 #vendor/sts/a04br3/proprietary/bin/resize2fs:system/bin/resize2fs \
