@@ -14,10 +14,18 @@ vendor/sts/a04br3/proprietary/framework/arm64/boot-mediatek-telephony-common.oat
 vendor/sts/a04br3/proprietary/framework/mediatek-common.jar:system/framework/mediatek-common.jar \
 vendor/sts/a04br3/proprietary/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar \
 vendor/sts/a04br3/proprietary/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar \
+vendor/sts/a04br3/proprietary/bin/linker64:system/bin/linker64 \
+vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
+vendor/sts/a04br3/proprietary/bin/lmkd:system/bin/lmkd \
 vendor/sts/a04br3/proprietary/bin/ln:system/bin/ln \
+vendor/sts/a04br3/proprietary/bin/load_policy:system/bin/load_policy \
 vendor/sts/a04br3/proprietary/bin/log:system/bin/log \
+vendor/sts/a04br3/proprietary/bin/logcat:system/bin/logcat \
+vendor/sts/a04br3/proprietary/bin/logd:system/bin/logd \
 vendor/sts/a04br3/proprietary/bin/logname:system/bin/logname \
+vendor/sts/a04br3/proprietary/bin/logwrapper:system/bin/logwrapper \
 vendor/sts/a04br3/proprietary/bin/losetup:system/bin/losetup \
+vendor/sts/a04br3/proprietary/bin/ls:system/bin/ls \
 vendor/sts/a04br3/proprietary/bin/keystore:system/bin/keystore \
 vendor/sts/a04br3/proprietary/bin/lsmod:system/bin/lsmod \
 vendor/sts/a04br3/proprietary/bin/lsof:system/bin/lsof \
@@ -31,6 +39,9 @@ vendor/sts/a04br3/proprietary/bin/mediacodec:system/bin/mediacodec \
 vendor/sts/a04br3/proprietary/bin/mediadrmserver:system/bin/mediadrmserver \
 vendor/sts/a04br3/proprietary/bin/mediaextractor:system/bin/mediaextractor \
 vendor/sts/a04br3/proprietary/bin/mediaserver:system/bin/mediaserver \
+vendor/sts/a04br3/proprietary/bin/mkdir:system/bin/mkdir \
+vendor/sts/a04br3/proprietary/bin/mke2fs:system/bin/mke2fs \
+vendor/sts/a04br3/proprietary/bin/mknod:system/bin/mknod \
 vendor/sts/a04br3/proprietary/bin/mkswap:system/bin/mkswap \
 vendor/sts/a04br3/proprietary/bin/mktemp:system/bin/mktemp \
 vendor/sts/a04br3/proprietary/bin/modinfo:system/bin/modinfo \
@@ -71,6 +82,8 @@ vendor/sts/a04br3/proprietary/bin/realpath:system/bin/realpath \
 vendor/sts/a04br3/proprietary/bin/reboot:system/bin/reboot \
 vendor/sts/a04br3/proprietary/bin/renice:system/bin/renice \
 vendor/sts/a04br3/proprietary/bin/requestsync:system/bin/requestsync \
+vendor/sts/a04br3/proprietary/bin/resize2fs:system/bin/resize2fs \
+vendor/sts/a04br3/proprietary/bin/restorecon:system/bin/restorecon \
 vendor/sts/a04br3/proprietary/bin/rm:system/bin/rm \
 vendor/sts/a04br3/proprietary/bin/rmdir:system/bin/rmdir \
 vendor/sts/a04br3/proprietary/bin/rmmod:system/bin/rmmod \
@@ -87,6 +100,7 @@ vendor/sts/a04br3/proprietary/bin/sendevent:system/bin/sendevent \
 vendor/sts/a04br3/proprietary/bin/sensorservice:system/bin/sensorservice \
 vendor/sts/a04br3/proprietary/bin/seq:system/bin/seq \
 vendor/sts/a04br3/proprietary/bin/service:system/bin/service \
+vendor/sts/a04br3/proprietary/bin/servicemanager:system/bin/servicemanager \
 vendor/sts/a04br3/proprietary/bin/setenforce:system/bin/setenforce \
 vendor/sts/a04br3/proprietary/bin/setprop:system/bin/setprop \
 vendor/sts/a04br3/proprietary/bin/setsid:system/bin/setsid \
@@ -102,6 +116,7 @@ vendor/sts/a04br3/proprietary/bin/start:system/bin/start \
 vendor/sts/a04br3/proprietary/bin/stat:system/bin/stat \
 vendor/sts/a04br3/proprietary/bin/stop:system/bin/stop \
 vendor/sts/a04br3/proprietary/bin/strings:system/bin/strings \
+vendor/sts/a04br3/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
 vendor/sts/a04br3/proprietary/bin/svc:system/bin/svc \
 vendor/sts/a04br3/proprietary/bin/swapoff:system/bin/swapoff \
 vendor/sts/a04br3/proprietary/bin/swapon:system/bin/swapon \
@@ -804,6 +819,7 @@ vendor/sts/a04br3/proprietary/vendor/bin/rpmb_svc:system/vendor/bin/rpmb_svc \
 vendor/sts/a04br3/proprietary/vendor/bin/rtt:system/vendor/bin/rtt \
 vendor/sts/a04br3/proprietary/vendor/bin/s62xd:system/vendor/bin/s62xd \
 vendor/sts/a04br3/proprietary/vendor/bin/slpd:system/vendor/bin/slpd \
+vendor/sts/a04br3/proprietary/vendor/bin/sn:system/vendor/bin/sn \
 vendor/sts/a04br3/proprietary/vendor/bin/stp_dump3:system/vendor/bin/stp_dump3 \
 vendor/sts/a04br3/proprietary/vendor/bin/superumount:system/vendor/bin/superumount \
 vendor/sts/a04br3/proprietary/vendor/bin/terservice:system/vendor/bin/terservice \
@@ -1421,24 +1437,8 @@ vendor/sts/a04br3/proprietary/vendor/res/sound/testpattern1.wav:system/vendor/re
 vendor/sts/a04br3/proprietary/xbin/dexlist:system/xbin/dexlist \
 vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 
-# 除外
+# 一時的に除外
 #vendor/sts/a04br3/proprietary/bin/oatdump:system/bin/oatdump \
 #vendor/sts/a04br3/proprietary/bin/patch:system/bin/patch \
 #vendor/sts/a04br3/proprietary/bin/patchoat:system/bin/patchoat \
 #vendor/sts/a04br3/proprietary/etc/compiled-classes:system/etc/compiled-classes \
-#vendor/sts/a04br3/proprietary/bin/linker64:system/bin/linker64 \
-#vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
-#vendor/sts/a04br3/proprietary/bin/logcat:system/bin/logcat \
-#vendor/sts/a04br3/proprietary/bin/logd:system/bin/logd \
-#vendor/sts/a04br3/proprietary/bin/logwrapper:system/bin/logwrapper \
-#vendor/sts/a04br3/proprietary/bin/lmkd:system/bin/lmkd \
-#vendor/sts/a04br3/proprietary/bin/ls:system/bin/ls \
-#vendor/sts/a04br3/proprietary/bin/load_policy:system/bin/load_policy \
-#vendor/sts/a04br3/proprietary/bin/mkdir:system/bin/mkdir \
-#vendor/sts/a04br3/proprietary/bin/mke2fs:system/bin/mke2fs \
-#vendor/sts/a04br3/proprietary/bin/mknod:system/bin/mknod \
-#vendor/sts/a04br3/proprietary/bin/servicemanager:system/bin/servicemanager \
-#vendor/sts/a04br3/proprietary/bin/resize2fs:system/bin/resize2fs \
-#vendor/sts/a04br3/proprietary/bin/restorecon:system/bin/restorecon \
-#vendor/sts/a04br3/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
-#vendor/sts/a04br3/proprietary/vendor/bin/sn:system/vendor/bin/sn \
