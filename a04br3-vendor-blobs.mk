@@ -345,7 +345,6 @@ vendor/sts/a04br3/proprietary/lib/libRScpp.so:system/lib/libRScpp.so \
 vendor/sts/a04br3/proprietary/lib/libRSCpuRef.so:system/lib/libRSCpuRef.so \
 vendor/sts/a04br3/proprietary/lib/libRSDriver.so:system/lib/libRSDriver.so \
 vendor/sts/a04br3/proprietary/lib/librtp_jni.so:system/lib/librtp_jni.so \
-vendor/sts/a04br3/proprietary/lib/libselinux.so:system/lib/libselinux.so \
 vendor/sts/a04br3/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
 vendor/sts/a04br3/proprietary/lib/libserviceutility.so:system/lib/libserviceutility.so \
 vendor/sts/a04br3/proprietary/lib/libsigchain.so:system/lib/libsigchain.so \
