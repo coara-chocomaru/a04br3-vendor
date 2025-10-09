@@ -14,9 +14,9 @@ vendor/sts/a04br3/proprietary/framework/arm64/boot-mediatek-telephony-common.oat
 vendor/sts/a04br3/proprietary/framework/mediatek-common.jar:system/framework/mediatek-common.jar \
 vendor/sts/a04br3/proprietary/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar \
 vendor/sts/a04br3/proprietary/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar \
+vendor/sts/a04br3/proprietary/bin/bootanimation:system/bin/bootanimation \
 vendor/sts/a04br3/proprietary/bin/lmkd:system/bin/lmkd \
 vendor/sts/a04br3/proprietary/bin/ln:system/bin/ln \
-vendor/sts/a04br3/proprietary/bin/load_policy:system/bin/load_policy \
 vendor/sts/a04br3/proprietary/bin/log:system/bin/log \
 vendor/sts/a04br3/proprietary/bin/logcat:system/bin/logcat \
 vendor/sts/a04br3/proprietary/bin/logd:system/bin/logd \
@@ -127,7 +127,6 @@ vendor/sts/a04br3/proprietary/bin/tee:system/bin/tee \
 vendor/sts/a04br3/proprietary/bin/telecom:system/bin/telecom \
 vendor/sts/a04br3/proprietary/bin/time:system/bin/time \
 vendor/sts/a04br3/proprietary/bin/timeout:system/bin/timeout \
-vendor/sts/a04br3/proprietary/bin/toolbox:system/bin/toolbox \
 vendor/sts/a04br3/proprietary/bin/top:system/bin/top \
 vendor/sts/a04br3/proprietary/bin/patch:system/bin/patch \
 vendor/sts/a04br3/proprietary/bin/touch:system/bin/touch \
