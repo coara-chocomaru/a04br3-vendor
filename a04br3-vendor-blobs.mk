@@ -39,7 +39,6 @@ vendor/sts/a04br3/proprietary/bin/mediacodec:system/bin/mediacodec \
 vendor/sts/a04br3/proprietary/bin/mediadrmserver:system/bin/mediadrmserver \
 vendor/sts/a04br3/proprietary/bin/mediaextractor:system/bin/mediaextractor \
 vendor/sts/a04br3/proprietary/bin/mediaserver:system/bin/mediaserver \
-vendor/sts/a04br3/proprietary/bin/mkdir:system/bin/mkdir \
 vendor/sts/a04br3/proprietary/bin/mke2fs:system/bin/mke2fs \
 vendor/sts/a04br3/proprietary/bin/mknod:system/bin/mknod \
 vendor/sts/a04br3/proprietary/bin/mkswap:system/bin/mkswap \
@@ -1442,3 +1441,4 @@ vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 
 # 一時的に除外
 #vendor/sts/a04br3/proprietary/etc/compiled-classes:system/etc/compiled-classes \
+#vendor/sts/a04br3/proprietary/bin/mkdir:system/bin/mkdir \
