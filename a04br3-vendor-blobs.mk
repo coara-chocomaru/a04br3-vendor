@@ -20,6 +20,8 @@ vendor/sts/a04br3/proprietary/bin/ln:system/bin/ln \
 vendor/sts/a04br3/proprietary/bin/log:system/bin/log \
 vendor/sts/a04br3/proprietary/bin/logcat:system/bin/logcat \
 vendor/sts/a04br3/proprietary/bin/logd:system/bin/logd \
+vendor/sts/a04br3/proprietary/bin/ip6tables:system/bin/ip6tables \
+vendor/sts/a04br3/proprietary/bin/iptables:system/bin/iptables \
 vendor/sts/a04br3/proprietary/bin/logname:system/bin/logname \
 vendor/sts/a04br3/proprietary/bin/logwrapper:system/bin/logwrapper \
 vendor/sts/a04br3/proprietary/bin/losetup:system/bin/losetup \
