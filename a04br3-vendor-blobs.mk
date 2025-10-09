@@ -1403,6 +1403,10 @@ vendor/sts/a04br3/proprietary/vendor/res/images/lcd_test_02.png:system/vendor/re
 vendor/sts/a04br3/proprietary/vendor/res/sound/ringtone.wav:system/vendor/res/sound/ringtone.wav \
 vendor/sts/a04br3/proprietary/vendor/res/sound/testpattern1.wav:system/vendor/res/sound/testpattern1.wav \
 vendor/sts/a04br3/proprietary/xbin/dexlist:system/xbin/dexlist \
+vendor/sts/a04br3/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
+vendor/sts/a04br3/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
+vendor/sts/a04br3/proprietary/lib64/libdrmframework.so:system/lib64/libdrmframework.so \
+vendor/sts/a04br3/proprietary/lib64/libdrmframework_jni.so:system/lib64/libdrmframework_jni.so \
 vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 
 # 一時的に除外
@@ -1421,10 +1425,6 @@ vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 #vendor/sts/a04br3/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
 #vendor/sts/a04br3/proprietary/bin/linker64:system/bin/linker64 \
 #vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
-#vendor/sts/a04br3/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
-#vendor/sts/a04br3/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
-#vendor/sts/a04br3/proprietary/lib64/libdrmframework.so:system/lib64/libdrmframework.so \
-#vendor/sts/a04br3/proprietary/lib64/libdrmframework_jni.so:system/lib64/libdrmframework_jni.so \
 
 # vendor/sts/a04br3/proprietary/lib/libc.so:system/lib/libc.so \
 # vendor/sts/a04br3/proprietary/lib/libm.so:system/lib/libm.so \
