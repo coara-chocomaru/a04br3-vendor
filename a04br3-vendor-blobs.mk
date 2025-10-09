@@ -1407,9 +1407,26 @@ vendor/sts/a04br3/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.
 vendor/sts/a04br3/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
 vendor/sts/a04br3/proprietary/lib64/libdrmframework.so:system/lib64/libdrmframework.so \
 vendor/sts/a04br3/proprietary/lib64/libdrmframework_jni.so:system/lib64/libdrmframework_jni.so \
-vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
+vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump \
+vendor/sts/a04br3/proprietary/lib/libc.so:system/lib/libc.so \
+vendor/sts/a04br3/proprietary/lib/libm.so:system/lib/libm.so \
+vendor/sts/a04br3/proprietary/lib/libdl.so:system/lib/libdl.so \
+vendor/sts/a04br3/proprietary/lib/libc++.so:system/lib/libc++.so \
+vendor/sts/a04br3/proprietary/lib/libstdc++.so:system/lib/libstdc++.so \
+vendor/sts/a04br3/proprietary/lib/libandroid.so:system/lib/libandroid.so \
+vendor/sts/a04br3/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
+vendor/sts/a04br3/proprietary/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
+vendor/sts/a04br3/proprietary/lib/libandroidfw.so:system/lib/libandroidfw.so \
+vendor/sts/a04br3/proprietary/lib64/libc.so:system/lib64/libc.so \
+vendor/sts/a04br3/proprietary/lib64/libm.so:system/lib64/libm.so \
+vendor/sts/a04br3/proprietary/lib64/libdl.so:system/lib64/libdl.so \
+vendor/sts/a04br3/proprietary/lib64/libc++.so:system/lib64/libc++.so \
+vendor/sts/a04br3/proprietary/lib64/libstdc++.so:system/lib64/libstdc++.so \
+vendor/sts/a04br3/proprietary/lib64/libandroid.so:system/lib64/libandroid.so \
+vendor/sts/a04br3/proprietary/lib64/libandroid_runtime.so:system/lib64/libandroid_runtime.so \
+vendor/sts/a04br3/proprietary/lib64/libandroid_servers.so:system/lib64/libandroid_servers.so \
+vendor/sts/a04br3/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so
 
-# 一時的に除外
 #vendor/sts/a04br3/proprietary/etc/compiled-classes:system/etc/compiled-classes \
 #vendor/sts/a04br3/proprietary/bin/mkdir:system/bin/mkdir \
 #vendor/sts/a04br3/proprietary/bin/resize2fs:system/bin/resize2fs \
@@ -1425,23 +1442,3 @@ vendor/sts/a04br3/proprietary/xbin/tcpdump:system/xbin/tcpdump
 #vendor/sts/a04br3/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
 #vendor/sts/a04br3/proprietary/bin/linker64:system/bin/linker64 \
 #vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
-
-# vendor/sts/a04br3/proprietary/lib/libc.so:system/lib/libc.so \
-# vendor/sts/a04br3/proprietary/lib/libm.so:system/lib/libm.so \
-# vendor/sts/a04br3/proprietary/lib/libdl.so:system/lib/libdl.so \
-# vendor/sts/a04br3/proprietary/lib/libc++.so:system/lib/libc++.so \
-# vendor/sts/a04br3/proprietary/lib/libstdc++.so:system/lib/libstdc++.so \
-# vendor/sts/a04br3/proprietary/lib/libandroid.so:system/lib/libandroid.so \
-# vendor/sts/a04br3/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
-# vendor/sts/a04br3/proprietary/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
-# vendor/sts/a04br3/proprietary/lib/libandroidfw.so:system/lib/libandroidfw.so \
-# 64-bit
-# vendor/sts/a04br3/proprietary/lib64/libc.so:system/lib64/libc.so \
-# vendor/sts/a04br3/proprietary/lib64/libm.so:system/lib64/libm.so \
-# vendor/sts/a04br3/proprietary/lib64/libdl.so:system/lib64/libdl.so \
-# vendor/sts/a04br3/proprietary/lib64/libc++.so:system/lib64/libc++.so \
-# vendor/sts/a04br3/proprietary/lib64/libstdc++.so:system/lib64/libstdc++.so \
-# vendor/sts/a04br3/proprietary/lib64/libandroid.so:system/lib64/libandroid.so \
-# vendor/sts/a04br3/proprietary/lib64/libandroid_runtime.so:system/lib64/libandroid_runtime.so \
-# vendor/sts/a04br3/proprietary/lib64/libandroid_servers.so:system/lib64/libandroid_servers.so \
-# vendor/sts/a04br3/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so \
