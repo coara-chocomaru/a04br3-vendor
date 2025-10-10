@@ -11,6 +11,10 @@ vendor/sts/a04br3/proprietary/bin/logname:system/bin/logname \
 vendor/sts/a04br3/proprietary/bin/logwrapper:system/bin/logwrapper \
 vendor/sts/a04br3/proprietary/bin/losetup:system/bin/losetup \
 vendor/sts/a04br3/proprietary/bin/ls:system/bin/ls \
+vendor/sts/a04br3/proprietary/bin/audioserver:system/bin/audioserver \
+vendor/sts/a04br3/proprietary/bin/cameraserver:system/bin/cameraserver \
+vendor/sts/a04br3/proprietary/bin/ls:system/bin/ls \
+vendor/sts/a04br3/proprietary/bin/drmserver:system/bin/drmserver \
 vendor/sts/a04br3/proprietary/bin/keystore:system/bin/keystore \
 vendor/sts/a04br3/proprietary/bin/lsmod:system/bin/lsmod \
 vendor/sts/a04br3/proprietary/bin/lsof:system/bin/lsof \
@@ -164,6 +168,17 @@ vendor/sts/a04br3/proprietary/etc/media_codecs_performance.xml:system/etc/media_
 vendor/sts/a04br3/proprietary/etc/ppp/ip-up-vpn:system/etc/ppp/ip-up-vpn \
 vendor/sts/a04br3/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
 vendor/sts/a04br3/proprietary/etc/trustzone.bin:system/etc/trustzone.bin \
+vendor/sts/a04br3/proprietary/etc/init/audioserver.rc:system/etc/init/audioserver \
+vendor/sts/a04br3/proprietary/etc/init/bootanim.rc:system/etc/init/bootanim.rc \
+vendor/sts/a04br3/proprietary/etc/init/cameraserver.rc:system/etc/init/cameraserver.rc \
+vendor/sts/a04br3/proprietary/etc/init/drmserver.rc:system/etc/init/drmserver.rc \
+vendor/sts/a04br3/proprietary/etc/init/keystore.rc:system/etc/init/keystore.rc \
+vendor/sts/a04br3/proprietary/etc/init/lmkd.rc:system/etc/init/lmkd.rc \
+vendor/sts/a04br3/proprietary/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
+vendor/sts/a04br3/proprietary/etc/init/mediadrmserver.rc:system/etc/init/mediadrmserver.rc \
+vendor/sts/a04br3/proprietary/etc/init/mediaextractor.rc:system/etc/init/mediaextractor.rc \
+vendor/sts/a04br3/proprietary/etc/init/mediaserver.rc:system/etc/init/mediaserver.rc \
+vendor/sts/a04br3/proprietary/etc/init/netd.rc:system/etc/init/netd.rc \
 vendor/sts/a04br3/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
 vendor/sts/a04br3/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
 vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -659,6 +674,10 @@ vendor/sts/a04br3/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/sou
 vendor/sts/a04br3/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
 vendor/sts/a04br3/proprietary/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
 vendor/sts/a04br3/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+vendor/sts/a04br3/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc \
+vendor/sts/a04br3/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
+vendor/sts/a04br3/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
+vendor/sts/a04br3/proprietary/usr/share/zoneinfo/tzdata:system/usr/share/zoneinfo/tzdata \
 vendor/sts/a04br3/proprietary/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
 vendor/sts/a04br3/proprietary/usr/keychars/Vendor_18d1_Product_5018.kcm:system/usr/keychars/Vendor_18d1_Product_5018.kcm \
 vendor/sts/a04br3/proprietary/usr/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm \
@@ -1348,21 +1367,3 @@ vendor/sts/a04br3/proprietary/lib64/libandroid.so:system/lib64/libandroid.so \
 vendor/sts/a04br3/proprietary/lib64/libandroid_runtime.so:system/lib64/libandroid_runtime.so \
 vendor/sts/a04br3/proprietary/lib64/libandroid_servers.so:system/lib64/libandroid_servers.so \
 vendor/sts/a04br3/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so
-
-#vendor/sts/a04br3/proprietary/bin/mount:system/bin/mount\
-#vendor/sts/a04br3/proprietary/etc/compiled-classes:system/etc/compiled-classes \
-#vendor/sts/a04br3/proprietary/bin/mkdir:system/bin/mkdir \
-#vendor/sts/a04br3/proprietary/bin/resize2fs:system/bin/resize2fs \
-#vendor/sts/a04br3/proprietary/bin/oatdump:system/bin/oatdump \
-#vendor/sts/a04br3/proprietary/bin/patchoat:system/bin/patchoat \
-#vendor/sts/a04br3/proprietary/bin/dex2oat:system/bin/dex2oat \
-#vendor/sts/a04br3/proprietary/lib/libart-compiler.so:system/lib/libart-compiler.so \
-#vendor/sts/a04br3/proprietary/lib/libart.so:system/lib/libart.so \
-#vendor/sts/a04br3/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
-#vendor/sts/a04br3/proprietary/lib64/libart-compiler.so:system/lib64/libart-compiler.so \
-#vendor/sts/a04br3/proprietary/lib64/libart-disassembler.so:system/lib64/libart-disassembler.so \
-#vendor/sts/a04br3/proprietary/lib64/libart.so:system/lib64/libart.so \
-#vendor/sts/a04br3/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
-#vendor/sts/a04br3/proprietary/bin/linker64:system/bin/linker64 \
-#vendor/sts/a04br3/proprietary/bin/linker:system/bin/linker \
-#vendor/sts/a04br3/proprietary/bin/vold:system/bin/vold \
