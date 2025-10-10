@@ -1066,7 +1066,6 @@ vendor/sts/a04br3/proprietary/vendor/lib/libmmsdkservice.so:system/vendor/lib/li
 vendor/sts/a04br3/proprietary/vendor/lib/libmp4enc_sa.ca7.so:system/vendor/lib/libmp4enc_sa.ca7.so \
 vendor/sts/a04br3/proprietary/vendor/lib/libmrdump.so:system/vendor/lib/libmrdump.so \
 vendor/sts/a04br3/proprietary/vendor/lib/libmsbc_mtk.so:system/vendor/lib/libmsbc_mtk.so \
-vendor/sts/a04br3/proprietary/vendor/lib/libmtcloader.so:system/vendor/lib/libmtcloader.so \
 vendor/sts/a04br3/proprietary/vendor/lib/libmtk_drvb.so:system/vendor/lib/libmtk_drvb.so \
 vendor/sts/a04br3/proprietary/vendor/lib/libmtk_mmutils.so:system/vendor/lib/libmtk_mmutils.so \
 vendor/sts/a04br3/proprietary/vendor/lib/libmtk_vt_service.so:system/vendor/lib/libmtk_vt_service.so \
