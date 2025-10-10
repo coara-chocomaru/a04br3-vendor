@@ -61,7 +61,6 @@ vendor/sts/a04br3/proprietary/bin/printenv:system/bin/printenv \
 vendor/sts/a04br3/proprietary/bin/printf:system/bin/printf \
 vendor/sts/a04br3/proprietary/bin/prlimit:system/bin/prlimit \
 vendor/sts/a04br3/proprietary/bin/profman:system/bin/profman \
-vendor/sts/a04br3/proprietary/bin/ps:system/bin/ps \
 vendor/sts/a04br3/proprietary/bin/pwd:system/bin/pwd \
 vendor/sts/a04br3/proprietary/bin/racoon:system/bin/racoon \
 vendor/sts/a04br3/proprietary/bin/readlink:system/bin/readlink \
@@ -91,7 +90,6 @@ vendor/sts/a04br3/proprietary/bin/setenforce:system/bin/setenforce \
 vendor/sts/a04br3/proprietary/bin/setprop:system/bin/setprop \
 vendor/sts/a04br3/proprietary/bin/setsid:system/bin/setsid \
 vendor/sts/a04br3/proprietary/bin/settings:system/bin/settings \
-vendor/sts/a04br3/proprietary/bin/sgdisk:system/bin/sgdisk \
 vendor/sts/a04br3/proprietary/bin/sh:system/bin/sh \
 vendor/sts/a04br3/proprietary/bin/sha1sum:system/bin/sha1sum \
 vendor/sts/a04br3/proprietary/bin/sleep:system/bin/sleep \
