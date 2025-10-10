@@ -1258,7 +1258,6 @@ vendor/sts/a04br3/proprietary/vendor/lib64/libmemorydumper.so:system/vendor/lib6
 vendor/sts/a04br3/proprietary/vendor/lib64/libmemtrack_GL.so:system/vendor/lib64/libmemtrack_GL.so \
 vendor/sts/a04br3/proprietary/vendor/lib64/libmhalImageCodec.so:system/vendor/lib64/libmhalImageCodec.so \
 vendor/sts/a04br3/proprietary/vendor/lib64/libminiui.so:system/vendor/lib64/libminiui.so \
-vendor/sts/a04br3/proprietary/vendor/lib64/libMiraVision_jni.so:system/vendor/lib64/libMiraVision_jni.so \
 vendor/sts/a04br3/proprietary/vendor/lib64/libmmprofile.so:system/vendor/lib64/libmmprofile.so \
 vendor/sts/a04br3/proprietary/vendor/lib64/libmmprofile_jni.so:system/vendor/lib64/libmmprofile_jni.so \
 vendor/sts/a04br3/proprietary/vendor/lib64/libmrdump.so:system/vendor/lib64/libmrdump.so \
