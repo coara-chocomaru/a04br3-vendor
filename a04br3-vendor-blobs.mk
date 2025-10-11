@@ -1,4 +1,6 @@
 PRODUCT_COPY_FILES += \
+vendor/sts/a04br3/proprietary/bin/hostapd:system/bin/hostapd \
+vendor/sts/a04br3/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
 vendor/sts/a04br3/proprietary/bin/bootanimation:system/bin/bootanimation \
 vendor/sts/a04br3/proprietary/bin/lmkd:system/bin/lmkd \
 vendor/sts/a04br3/proprietary/bin/ln:system/bin/ln \
