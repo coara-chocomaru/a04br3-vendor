@@ -1,4 +1,10 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/lib/libRS.so:system/lib/libRS.so \
+    vendor/sts/a04br3/proprietary/lib/libRS_internal.so:system/lib/libRS_internal.so \
+    vendor/sts/a04br3/proprietary/lib/librs_jni.so:system/lib/librs_jni.so \
+    vendor/sts/a04br3/proprietary/lib/libRScpp.so:system/lib/libRScpp.so \
+    vendor/sts/a04br3/proprietary/lib/libRSCpuRef.so:system/lib/libRSCpuRef.so \
+    vendor/sts/a04br3/proprietary/lib/libRSDriver.so:system/lib/libRSDriver.so \
     vendor/sts/a04br3/proprietary/usr/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm \
     vendor/sts/a04br3/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
     vendor/sts/a04br3/proprietary/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
