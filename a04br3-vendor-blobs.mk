@@ -1,4 +1,10 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/lib64/libRS.so:system/lib64/libRS.so \
+    vendor/sts/a04br3/proprietary/lib64/libRS_internal.so:system/lib64/libRS_internal.so \
+    vendor/sts/a04br3/proprietary/lib64/librs_jni.so:system/lib64/librs_jni.so \
+    vendor/sts/a04br3/proprietary/lib64/libRScpp.so:system/lib64/libRScpp.so \
+    vendor/sts/a04br3/proprietary/lib64/libRSCpuRef.so:system/lib64/libRSCpuRef.so \
+    vendor/sts/a04br3/proprietary/lib64/libRSDriver.so:system/lib64/libRSDriver.so \
     vendor/sts/a04br3/proprietary/lib/libRS.so:system/lib/libRS.so \
     vendor/sts/a04br3/proprietary/lib/libRS_internal.so:system/lib/libRS_internal.so \
     vendor/sts/a04br3/proprietary/lib/librs_jni.so:system/lib/librs_jni.so \
