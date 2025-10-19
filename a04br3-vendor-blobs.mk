@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/sts/a04br3/proprietary/etc/media_codecs_mediatek_audio.xml:system/etc/media_codecs_mediatek_audio.xml \
     vendor/sts/a04br3/proprietary/etc/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
-    vendor/sts/a04br3/proprietary/bin/pppd_dt:system/bin/pppd_dt \
     vendor/sts/a04br3/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/sts/a04br3/proprietary/bin/wpa_cli:system/bin/wpa_cli \
     vendor/sts/a04br3/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
