@@ -1,4 +1,5 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/sts/a04br3/proprietary/etc/init/mediadrmserver.rc:system/etc/init/mediadrmserver.rc \
     vendor/sts/a04br3/proprietary/etc/init/drmserver.rc:system/etc/init/drmserver.rc \
     vendor/sts/a04br3/proprietary/etc/init/dumpstate.rc:system/etc/init/dumpstate.rc \
@@ -56,6 +57,12 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/lib/libmediatek_exceptionlog.so:system/lib/libmediatek_exceptionlog.so \
     vendor/sts/a04br3/proprietary/lib/librs_jni.so:system/lib/librs_jni.so \
     vendor/sts/a04br3/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+    vendor/sts/a04br3/proprietary/lib/libuz.so:system/lib/libuz.so \
+    vendor/sts/a04br3/proprietary/lib/libux.so:system/lib/libux.so \    
+    vendor/sts/a04br3/proprietary/lib/libdrm.so:system/lib/libdrm.so \
+    vendor/sts/a04br3/proprietary/lib64/libdrm.so:system/lib64/libdrm.so \
+    vendor/sts/a04br3/proprietary/lib64/libuz.so:system/lib64/libuz.so \
+    vendor/sts/a04br3/proprietary/lib64/libux.so:system/lib64/libux.so \
     vendor/sts/a04br3/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/sts/a04br3/proprietary/lib64/hw/audio.usb.default.so:system/lib64/hw/audio.usb.default.so \
     vendor/sts/a04br3/proprietary/lib64/hw/audio_policy.stub.so:system/lib64/hw/audio_policy.stub.so \
