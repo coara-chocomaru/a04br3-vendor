@@ -1,4 +1,37 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/etc/init/mediadrmserver.rc:system/etc/init/mediadrmserver.rc \
+    vendor/sts/a04br3/proprietary/etc/init/drmserver.rc:system/etc/init/drmserver.rc \
+    vendor/sts/a04br3/proprietary/etc/init/dumpstate.rc:system/etc/init/dumpstate.rc \
+    vendor/sts/a04br3/proprietary/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
+    vendor/sts/a04br3/proprietary/etc/init/audioserver.rc:system/etc/init/audioserver.rc \
+    vendor/sts/a04br3/proprietary/etc/init/bootanim.rc:system/etc/init/bootanim.rc \
+    vendor/sts/a04br3/proprietary/etc/init/bootstat.rc:system/etc/init/bootstat.rc \
+    vendor/sts/a04br3/proprietary/etc/init/atrace.rc:system/etc/init/atrace.rc \
+    vendor/sts/a04br3/proprietary/etc/init/mediaserver.rc:system/etc/init/mediaserver.rc \
+    vendor/sts/a04br3/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+    vendor/sts/a04br3/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml \
+    vendor/sts/a04br3/proprietary/etc/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
+    vendor/sts/a04br3/proprietary/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
+    vendor/sts/a04br3/proprietary/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
+    vendor/sts/a04br3/proprietary/etc/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml \
+    vendor/sts/a04br3/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
+    vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
+    vendor/sts/a04br3/proprietary/etc/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
+    vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
+    vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.microphone.xml:system/etc/permissions/android.hardware.microphone.xml \
+    vendor/sts/a04br3/proprietary/etc/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
+    vendor/sts/a04br3/proprietary/etc/ppp/ip-up-vpn:system/etc/ppp/ip-up-vpn \
+    vendor/sts/a04br3/proprietary/etc/bluetooth/bt_stack.conf.debug:system/etc/bluetooth/bt_stack.conf.debug \
+    vendor/sts/a04br3/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+    vendor/sts/a04br3/proprietary/etc/bluetooth/bt_stack.conf.sqc:system/etc/bluetooth/bt_stack.conf.sqc \
+    vendor/sts/a04br3/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
+    vendor/sts/a04br3/proprietary/etc/media_codecs_mediatek_audio.xml:system/etc/media_codecs_mediatek_audio.xml \
+    vendor/sts/a04br3/proprietary/etc/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
+    vendor/sts/a04br3/proprietary/bin/pppd_dt:system/bin/pppd_dt \
+    vendor/sts/a04br3/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+    vendor/sts/a04br3/proprietary/bin/wpa_cli:system/bin/wpa_cli \
     vendor/sts/a04br3/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/sts/a04br3/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     vendor/sts/a04br3/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
