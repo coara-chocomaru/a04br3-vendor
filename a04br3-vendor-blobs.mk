@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
     vendor/sts/a04br3/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/sts/a04br3/proprietary/bin/wpa_cli:system/bin/wpa_cli \
+    vendor/sts/a04br3/proprietary/bin/ts_calibrator:system/bin/ts_calibrator \
     vendor/sts/a04br3/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/sts/a04br3/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     vendor/sts/a04br3/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
