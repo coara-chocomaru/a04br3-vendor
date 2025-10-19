@@ -60,6 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/lib/libuz.so:system/lib/libuz.so \
     vendor/sts/a04br3/proprietary/lib/libux.so:system/lib/libux.so \
     vendor/sts/a04br3/proprietary/lib/libdrm.so:system/lib/libdrm.so \
+    vendor/sts/a04br3/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
+    vendor/sts/a04br3/proprietary/lib64/libwpa_client.so:system/lib64/libwpa_client.so \
     vendor/sts/a04br3/proprietary/lib64/libdrm.so:system/lib64/libdrm.so \
     vendor/sts/a04br3/proprietary/lib64/libuz.so:system/lib64/libuz.so \
     vendor/sts/a04br3/proprietary/lib64/libux.so:system/lib64/libux.so \
