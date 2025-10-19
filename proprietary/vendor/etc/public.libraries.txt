@@ -1,3 +1,0 @@
-libsbox.so
-libts.so
-libhwr_u_jni.so
