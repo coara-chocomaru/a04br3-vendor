@@ -1,4 +1,7 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
+    vendor/sts/a04br3/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
+    vendor/sts/a04br3/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
     vendor/sts/a04br3/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/sts/a04br3/proprietary/etc/init/mediadrmserver.rc:system/etc/init/mediadrmserver.rc \
     vendor/sts/a04br3/proprietary/etc/init/drmserver.rc:system/etc/init/drmserver.rc \
@@ -10,6 +13,7 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/init/atrace.rc:system/etc/init/atrace.rc \
     vendor/sts/a04br3/proprietary/etc/init/mediaserver.rc:system/etc/init/mediaserver.rc \
     vendor/sts/a04br3/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/sts/a04br3/proprietary/etc/media_codecs_ffmpeg.xml:system/etc/media_codecs_ffmpeg.xml \
     vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/sts/a04br3/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml \
@@ -279,6 +283,17 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/firmware/mt6630_patch_e3_1_hdr.bin:system/vendor/firmware/mt6630_patch_e3_1_hdr.bin \
     vendor/sts/a04br3/proprietary/vendor/firmware/rgx.fw.signed:system/vendor/firmware/rgx.fw.signed \
     vendor/sts/a04br3/proprietary/vendor/firmware/rgx.fw.signed.e1:system/vendor/firmware/rgx.fw.signed.e1 \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/audio.primary.mt8167.so:system/vendor/lib/hw/audio.primary.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/audio.r_submix.mt8167.so:system/vendor/lib/hw/audio.r_submix.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/audio.usb.mt8167.so:system/vendor/lib/hw/audio.usb.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/gatekeeper.mt8167.so:system/vendor/lib/hw/gatekeeper.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/gralloc.mt8167.so:system/vendor/lib/hw/gralloc.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/hwcomposer.mt8167.so:system/vendor/lib/hw/hwcomposer.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/keystore.mt8167.so:system/vendor/lib/hw/keystore.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/lights.mt8167.so:system/vendor/lib/hw/lights.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/memtrack.mt8167.so:system/vendor/lib/hw/memtrack.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/sensors.mt8167.so:system/vendor/lib/hw/sensors.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/vulkan.mt8167.so:system/vendor/lib/hw/vulkan.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib/egl/egl.cfg:system/vendor/lib/egl/egl.cfg \
     vendor/sts/a04br3/proprietary/vendor/lib/egl/libEGL_mtk.so:system/vendor/lib/egl/libEGL_mtk.so \
     vendor/sts/a04br3/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so:system/vendor/lib/egl/libGLESv1_CM_mtk.so \
