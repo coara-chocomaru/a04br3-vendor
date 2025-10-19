@@ -2,6 +2,8 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
     vendor/sts/a04br3/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/sts/a04br3/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
+    vendor/sts/a04br3/proprietary/etc/hosts:system/etc/hosts \
+    vendor/sts/a04br3/proprietary/etc/clatd.conf:system/etc/clatd.conf \
     vendor/sts/a04br3/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/sts/a04br3/proprietary/etc/init/mediadrmserver.rc:system/etc/init/mediadrmserver.rc \
     vendor/sts/a04br3/proprietary/etc/init/drmserver.rc:system/etc/init/drmserver.rc \
