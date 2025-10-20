@@ -3,7 +3,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
     vendor/sts/a04br3/proprietary/bin/hostname:system/bin/hostname \
     vendor/sts/a04br3/proprietary/bin/ip:system/bin/ip \
-    vendor/sts/a04br3/proprietary/bin/lmkd:system/bin/lmkd \
     vendor/sts/a04br3/proprietary/bin/ip6tables:system/bin/ip6tables \
     vendor/sts/a04br3/proprietary/bin/ip6tables-restore:system/bin/ip6tables-restore \
     vendor/sts/a04br3/proprietary/bin/ip6tables-save:system/bin/ip6tables-save \
