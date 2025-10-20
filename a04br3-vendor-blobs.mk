@@ -14,6 +14,9 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/init/bootstat.rc:system/etc/init/bootstat.rc \
     vendor/sts/a04br3/proprietary/etc/init/atrace.rc:system/etc/init/atrace.rc \
     vendor/sts/a04br3/proprietary/etc/init/mediaserver.rc:system/etc/init/mediaserver.rc \
+    vendor/sts/a04br3/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/p2p_supplicant_overlay.conf \
+    vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wpa_supplicant.conf \
+    vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wpa_supplicant_overlay.conf \
     vendor/sts/a04br3/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/sts/a04br3/proprietary/etc/media_codecs_ffmpeg.xml:system/etc/media_codecs_ffmpeg.xml \
     vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
