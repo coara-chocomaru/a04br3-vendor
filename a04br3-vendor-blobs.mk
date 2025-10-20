@@ -3,6 +3,7 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
     vendor/sts/a04br3/proprietary/bin/hostname:system/bin/hostname \
     vendor/sts/a04br3/proprietary/bin/ip:system/bin/ip \
+    vendor/sts/a04br3/proprietary/bin/lmkd:system/bin/lmkd \
     vendor/sts/a04br3/proprietary/bin/ip6tables:system/bin/ip6tables \
     vendor/sts/a04br3/proprietary/bin/ip6tables-restore:system/bin/ip6tables-restore \
     vendor/sts/a04br3/proprietary/bin/ip6tables-save:system/bin/ip6tables-save \
@@ -22,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
     vendor/sts/a04br3/proprietary/etc/init/lmkd.rc:system/etc/init/lmkd.rc \
     vendor/sts/a04br3/proprietary/etc/init/bootanim.rc:system/etc/init/bootanim.rc \
+    vendor/sts/a04br3/proprietary/etc/init/bootstat.rc:system/etc/init/bootstat.rc \
     vendor/sts/a04br3/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/p2p_supplicant_overlay.conf \
     vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wpa_supplicant.conf \
     vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wpa_supplicant_overlay.conf \
@@ -104,6 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
     vendor/sts/a04br3/proprietary/vendor/bin/MtkCodecService:system/vendor/bin/MtkCodecService \
     vendor/sts/a04br3/proprietary/vendor/bin/aee:system/vendor/bin/aee \
+    vendor/sts/a04br3/proprietary/vendor/bin/wfbt_wr:system/vendor/bin/wfbt_wr \
     vendor/sts/a04br3/proprietary/vendor/bin/aee_archive:system/vendor/bin/aee_archive \
     vendor/sts/a04br3/proprietary/vendor/bin/aee_core_forwarder:system/vendor/bin/aee_core_forwarder \
     vendor/sts/a04br3/proprietary/vendor/bin/aee_dumpstate:system/vendor/bin/aee_dumpstate \
