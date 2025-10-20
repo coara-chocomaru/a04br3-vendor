@@ -1,7 +1,4 @@
 PRODUCT_COPY_FILES += \
-    vendor/sts/a04br3/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
-    vendor/sts/a04br3/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
-    vendor/sts/a04br3/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
     vendor/sts/a04br3/proprietary/etc/hosts:system/etc/hosts \
     vendor/sts/a04br3/proprietary/etc/clatd.conf:system/etc/clatd.conf \
     vendor/sts/a04br3/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
@@ -10,8 +7,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/init/dumpstate.rc:system/etc/init/dumpstate.rc \
     vendor/sts/a04br3/proprietary/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
     vendor/sts/a04br3/proprietary/etc/init/audioserver.rc:system/etc/init/audioserver.rc \
-    vendor/sts/a04br3/proprietary/etc/init/bootanim.rc:system/etc/init/bootanim.rc \
-    vendor/sts/a04br3/proprietary/etc/init/bootstat.rc:system/etc/init/bootstat.rc \
     vendor/sts/a04br3/proprietary/etc/init/atrace.rc:system/etc/init/atrace.rc \
     vendor/sts/a04br3/proprietary/etc/init/mediaserver.rc:system/etc/init/mediaserver.rc \
     vendor/sts/a04br3/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/p2p_supplicant_overlay.conf \
