@@ -1,4 +1,14 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/bin/hostapd:system/bin/hostapd \
+    vendor/sts/a04br3/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
+    vendor/sts/a04br3/proprietary/bin/hostname:system/bin/hostname \
+    vendor/sts/a04br3/proprietary/bin/ip:system/bin/ip \
+    vendor/sts/a04br3/proprietary/bin/ip6tables:system/bin/ip6tables \
+    vendor/sts/a04br3/proprietary/bin/ip6tables-restore:system/bin/ip6tables-restore \
+    vendor/sts/a04br3/proprietary/bin/ip6tables-save:system/bin/ip6tables-save \
+    vendor/sts/a04br3/proprietary/bin/iptables:system/bin/iptables \
+    vendor/sts/a04br3/proprietary/bin/iptables-restore:system/bin/iptables-restore \
+    vendor/sts/a04br3/proprietary/bin/iptables-save:system/bin/iptables-save \
     vendor/sts/a04br3/proprietary/etc/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
     vendor/sts/a04br3/proprietary/etc/hosts:system/etc/hosts \
     vendor/sts/a04br3/proprietary/etc/clatd.conf:system/etc/clatd.conf \
@@ -9,7 +19,9 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
     vendor/sts/a04br3/proprietary/etc/init/audioserver.rc:system/etc/init/audioserver.rc \
     vendor/sts/a04br3/proprietary/etc/init/atrace.rc:system/etc/init/atrace.rc \
-    vendor/sts/a04br3/proprietary/etc/init/mediaserver.rc:system/etc/init/mediaserver.rc \
+    vendor/sts/a04br3/proprietary/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
+    vendor/sts/a04br3/proprietary/etc/init/lmkd.rc:system/etc/init/lmkd.rc \
+    vendor/sts/a04br3/proprietary/etc/init/bootanim.rc:system/etc/init/bootanim.rc \
     vendor/sts/a04br3/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/p2p_supplicant_overlay.conf \
     vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wpa_supplicant.conf \
     vendor/sts/a04br3/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wpa_supplicant_overlay.conf \
