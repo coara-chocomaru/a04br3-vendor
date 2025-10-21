@@ -1,6 +1,4 @@
 PRODUCT_COPY_FILES += \
-    vendor/sts/a04br3/proprietary/bin/hostapd:system/bin/hostapd \
-    vendor/sts/a04br3/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
     vendor/sts/a04br3/proprietary/bin/ip6tables-restore:system/bin/ip6tables-restore \
     vendor/sts/a04br3/proprietary/bin/ip6tables-save:system/bin/ip6tables-save \
     vendor/sts/a04br3/proprietary/bin/iptables-restore:system/bin/iptables-restore \
@@ -42,8 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/sts/a04br3/proprietary/etc/media_codecs_mediatek_audio.xml:system/etc/media_codecs_mediatek_audio.xml \
     vendor/sts/a04br3/proprietary/etc/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
-    vendor/sts/a04br3/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
-    vendor/sts/a04br3/proprietary/bin/wpa_cli:system/bin/wpa_cli \
     vendor/sts/a04br3/proprietary/bin/ts_calibrator:system/bin/ts_calibrator \
     vendor/sts/a04br3/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/sts/a04br3/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
