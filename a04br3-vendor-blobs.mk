@@ -1,4 +1,15 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/lib/libhardware.so:system/lib/libhardware.so \
+    vendor/sts/a04br3/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
+    vendor/sts/a04br3/proprietary/lib64/libhardware.so:system/lib64/libhardware.so \
+    vendor/sts/a04br3/proprietary/lib64/libhardware_legacy.so:system/lib64/libhardware_legacy.so \
+    vendor/sts/a04br3/proprietary/bin/wpa_cli:system/bin/wpa_cli \
+    vendor/sts/a04br3/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+    vendor/sts/a04br3/proprietary/bin/hostapd:system/bin/hostapd \
+    vendor/sts/a04br3/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
+    vendor/sts/a04br3/proprietary/bin/ip:system/bin/ip \
+    vendor/sts/a04br3/proprietary/bin/ip6tables:system/bin/ip6tables \
+    vendor/sts/a04br3/proprietary/bin/iptables:system/bin/iptables \
     vendor/sts/a04br3/proprietary/bin/ip6tables-restore:system/bin/ip6tables-restore \
     vendor/sts/a04br3/proprietary/bin/ip6tables-save:system/bin/ip6tables-save \
     vendor/sts/a04br3/proprietary/bin/iptables-restore:system/bin/iptables-restore \
