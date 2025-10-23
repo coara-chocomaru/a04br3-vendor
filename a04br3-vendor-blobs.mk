@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/bin/orientationd:system/vendor/bin/orientationd \
     vendor/sts/a04br3/proprietary/vendor/bin/perf_native_test:system/vendor/bin/perf_native_test \
     vendor/sts/a04br3/proprietary/vendor/bin/pq:system/vendor/bin/pq \
-    vendor/sts/a04br3/proprietary/vendor/bin/program_binary_service:system/vendor/bin/program_binary_service \
     vendor/sts/a04br3/proprietary/vendor/bin/radvd:system/vendor/bin/radvd \
     vendor/sts/a04br3/proprietary/vendor/bin/resize_ext4:system/vendor/bin/resize_ext4 \
     vendor/sts/a04br3/proprietary/vendor/bin/rilproxy:system/vendor/bin/rilproxy \
@@ -476,7 +475,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib/libpq_cust.so:system/vendor/lib/libpq_cust.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libpq_prot.so:system/vendor/lib/libpq_prot.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libpqservice.so:system/vendor/lib/libpqservice.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libprogrambinary.so:system/vendor/lib/libprogrambinary.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libratconfig.so:system/vendor/lib/libratconfig.so \
     vendor/sts/a04br3/proprietary/vendor/lib/librilmtk.so:system/vendor/lib/librilmtk.so \
@@ -681,7 +679,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib64/libpq_cust.so:system/vendor/lib64/libpq_cust.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libpq_prot.so:system/vendor/lib64/libpq_prot.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libpqservice.so:system/vendor/lib64/libpqservice.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/libprogrambinary.so:system/vendor/lib64/libprogrambinary.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libpvrANDROID_WSEGL.so:system/vendor/lib64/libpvrANDROID_WSEGL.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libratconfig.so:system/vendor/lib64/libratconfig.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/librilmtk.so:system/vendor/lib64/librilmtk.so \
