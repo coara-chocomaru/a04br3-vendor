@@ -521,6 +521,9 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/sts/a04br3/proprietary/vendor/lib/mtk-ril.so:system/vendor/lib/mtk-ril.so \
     vendor/sts/a04br3/proprietary/vendor/lib/mtk-rilproxy.so:system/vendor/lib/mtk-rilproxy.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/egl/libEGL_mtk.so:system/vendor/lib64/egl/libEGL_mtk.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/egl/libGLESv1_CM_mtk.so:system/vendor/lib64/egl/libGLESv1_CM_mtk.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/egl/libGLESv2_mtk.so:system/vendor/lib64/egl/libGLESv2_mtk.so \
