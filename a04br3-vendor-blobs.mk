@@ -1,4 +1,9 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/vendor/lib64/lib_uree_mtk_video_secure_al.so:system/vendor/lib64/lib_uree_mtk_video_secure_al.so \
+    vendor/sts/a04br3/proprietary/vendor/lib64/liburee_meta_drmkeyinstall_v2.so:system/vendor/lib64/liburee_meta_drmkeyinstall_v2.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/lib_uree_mtk_video_secure_al.so:system/vendor/lib/lib_uree_mtk_video_secure_al.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/liburee_meta_drmkeyinstall_v2.so:system/vendor/lib/liburee_meta_drmkeyinstall_v2.so \
+    vendor/sts/a04br3/proprietary/vendor/bin/kisd:system/vendor/bin/kisd \
     vendor/sts/a04br3/proprietary/lib/libhardware.so:system/lib/libhardware.so \
     vendor/sts/a04br3/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
     vendor/sts/a04br3/proprietary/lib64/libhardware.so:system/lib64/libhardware.so \
