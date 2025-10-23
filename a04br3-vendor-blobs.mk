@@ -300,6 +300,8 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/firmware/mt6630_patch_e3_1_hdr.bin:system/vendor/firmware/mt6630_patch_e3_1_hdr.bin \
     vendor/sts/a04br3/proprietary/vendor/firmware/rgx.fw.signed:system/vendor/firmware/rgx.fw.signed \
     vendor/sts/a04br3/proprietary/vendor/firmware/rgx.fw.signed.e1:system/vendor/firmware/rgx.fw.signed.e1 \
+    vendor/sts/a04br3/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/sts/a04br3/proprietary/vendor/lib64/drm/libdrmwvmplugin.so:system/vendor/lib64/drm/libdrmwvmplugin.so \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/audio.primary.mt8167.so:system/vendor/lib/hw/audio.primary.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/audio.r_submix.mt8167.so:system/vendor/lib/hw/audio.r_submix.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/audio.usb.mt8167.so:system/vendor/lib/hw/audio.usb.mt8167.so \
