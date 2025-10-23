@@ -4,6 +4,7 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib/lib_uree_mtk_video_secure_al.so:system/vendor/lib/lib_uree_mtk_video_secure_al.so \
     vendor/sts/a04br3/proprietary/vendor/lib/liburee_meta_drmkeyinstall_v2.so:system/vendor/lib/liburee_meta_drmkeyinstall_v2.so \
     vendor/sts/a04br3/proprietary/vendor/bin/kisd:system/vendor/bin/kisd \
+    vendor/sts/a04br3/proprietary/vendor/bin/rpmb_svc:system/vendor/bin/rpmb_svc \
     vendor/sts/a04br3/proprietary/lib/libhardware.so:system/lib/libhardware.so \
     vendor/sts/a04br3/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
     vendor/sts/a04br3/proprietary/lib64/libhardware.so:system/lib64/libhardware.so \
@@ -310,10 +311,8 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/audio.primary.mt8167.so:system/vendor/lib/hw/audio.primary.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/audio.r_submix.mt8167.so:system/vendor/lib/hw/audio.r_submix.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/audio.usb.mt8167.so:system/vendor/lib/hw/audio.usb.mt8167.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/hw/gatekeeper.mt8167.so:system/vendor/lib/hw/gatekeeper.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/gralloc.mt8167.so:system/vendor/lib/hw/gralloc.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/hwcomposer.mt8167.so:system/vendor/lib/hw/hwcomposer.mt8167.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/hw/keystore.mt8167.so:system/vendor/lib/hw/keystore.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/lights.mt8167.so:system/vendor/lib/hw/lights.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/memtrack.mt8167.so:system/vendor/lib/hw/memtrack.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib/hw/sensors.mt8167.so:system/vendor/lib/hw/sensors.mt8167.so \
@@ -535,10 +534,8 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib64/hw/audio.primary.mt8167.so:system/vendor/lib64/hw/audio.primary.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/hw/audio.r_submix.mt8167.so:system/vendor/lib64/hw/audio.r_submix.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/hw/audio.usb.mt8167.so:system/vendor/lib64/hw/audio.usb.mt8167.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/hw/gatekeeper.mt8167.so:system/vendor/lib64/hw/gatekeeper.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/hw/gralloc.mt8167.so:system/vendor/lib64/hw/gralloc.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/hw/hwcomposer.mt8167.so:system/vendor/lib64/hw/hwcomposer.mt8167.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/hw/keystore.mt8167.so:system/vendor/lib64/hw/keystore.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/hw/lights.mt8167.so:system/vendor/lib64/hw/lights.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/hw/memtrack.mt8167.so:system/vendor/lib64/hw/memtrack.mt8167.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/hw/sensors.mt8167.so:system/vendor/lib64/hw/sensors.mt8167.so \
