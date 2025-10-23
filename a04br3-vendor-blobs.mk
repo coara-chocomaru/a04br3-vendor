@@ -322,20 +322,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib/libJpgDecPipe.so:system/vendor/lib/libJpgDecPipe.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libJpgEncPipe.so:system/vendor/lib/libJpgEncPipe.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libLLVMIMG.so:system/vendor/lib/libLLVMIMG.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMiraVision_jni.so:system/vendor/lib/libMiraVision_jni.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:system/vendor/lib/libMtkOmxAdpcmDec.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxAdpcmEnc.so:system/vendor/lib/libMtkOmxAdpcmEnc.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxAlacDec.so:system/vendor/lib/libMtkOmxAlacDec.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxApeDec.so:system/vendor/lib/libMtkOmxApeDec.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxCore.so:system/vendor/lib/libMtkOmxCore.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxFlacDec.so:system/vendor/lib/libMtkOmxFlacDec.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxG711Dec.so:system/vendor/lib/libMtkOmxG711Dec.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxGsmDec.so:system/vendor/lib/libMtkOmxGsmDec.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxMp3Dec.so:system/vendor/lib/libMtkOmxMp3Dec.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxRawDec.so:system/vendor/lib/libMtkOmxRawDec.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxVdecEx.so:system/vendor/lib/libMtkOmxVdecEx.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxVenc.so:system/vendor/lib/libMtkOmxVenc.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libMtkOmxVorbisEnc.so:system/vendor/lib/libMtkOmxVorbisEnc.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libPQDCjni.so:system/vendor/lib/libPQDCjni.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libPQjni.so:system/vendor/lib/libPQjni.so \
@@ -554,8 +540,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib64/libJpgDecPipe.so:system/vendor/lib64/libJpgDecPipe.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libJpgEncPipe.so:system/vendor/lib64/libJpgEncPipe.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libLLVMIMG.so:system/vendor/lib64/libLLVMIMG.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/libMiraVision_jni.so:system/vendor/lib64/libMiraVision_jni.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/libMtkOmxCore.so:system/vendor/lib64/libMtkOmxCore.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libPQDCjni.so:system/vendor/lib64/libPQDCjni.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libPQjni.so:system/vendor/lib64/libPQjni.so \
