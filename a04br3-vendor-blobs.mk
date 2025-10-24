@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml \
     vendor/sts/a04br3/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
     vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
-    vendor/sts/a04br3/proprietary/etc/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
     vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
     vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.microphone.xml:system/etc/permissions/android.hardware.microphone.xml \
     vendor/sts/a04br3/proprietary/etc/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
