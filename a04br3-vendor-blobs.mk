@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
     vendor/sts/a04br3/proprietary/etc/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml \
     vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
+    vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.microphone.xml:system/etc/permissions/android.hardware.microphone.xml \
     vendor/sts/a04br3/proprietary/etc/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
     vendor/sts/a04br3/proprietary/etc/ppp/ip-up-vpn:system/etc/ppp/ip-up-vpn \
     vendor/sts/a04br3/proprietary/etc/bluetooth/bt_stack.conf.debug:system/etc/bluetooth/bt_stack.conf.debug \
