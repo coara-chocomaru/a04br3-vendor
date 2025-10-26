@@ -157,7 +157,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/bin/pq:system/vendor/bin/pq \
     vendor/sts/a04br3/proprietary/vendor/bin/radvd:system/vendor/bin/radvd \
     vendor/sts/a04br3/proprietary/vendor/bin/resize_ext4:system/vendor/bin/resize_ext4 \
-    vendor/sts/a04br3/proprietary/vendor/bin/rilproxy:system/vendor/bin/rilproxy \
     vendor/sts/a04br3/proprietary/vendor/bin/rtt:system/vendor/bin/rtt \
     vendor/sts/a04br3/proprietary/vendor/bin/s62xd:system/vendor/bin/s62xd \
     vendor/sts/a04br3/proprietary/vendor/bin/slpd:system/vendor/bin/slpd \
