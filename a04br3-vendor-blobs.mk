@@ -437,7 +437,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib/libmal_mdmngr.so:system/vendor/lib/libmal_mdmngr.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libmal_nwmngr.so:system/vendor/lib/libmal_nwmngr.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libmal_rds.so:system/vendor/lib/libmal_rds.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/libmal_rilproxy.so:system/vendor/lib/libmal_rilproxy.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libmal_simmngr.so:system/vendor/lib/libmal_simmngr.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libmatv_cust.so:system/vendor/lib/libmatv_cust.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libmdfx.so:system/vendor/lib/libmdfx.so \
@@ -641,7 +640,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib64/libmal_mdmngr.so:system/vendor/lib64/libmal_mdmngr.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libmal_nwmngr.so:system/vendor/lib64/libmal_nwmngr.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libmal_rds.so:system/vendor/lib64/libmal_rds.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/libmal_rilproxy.so:system/vendor/lib64/libmal_rilproxy.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libmal_simmngr.so:system/vendor/lib64/libmal_simmngr.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libmatv_cust.so:system/vendor/lib64/libmatv_cust.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libmdfx.so:system/vendor/lib64/libmdfx.so \
