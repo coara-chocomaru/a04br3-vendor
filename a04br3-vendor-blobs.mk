@@ -148,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/bin/memsicd3416x:system/vendor/bin/memsicd3416x \
     vendor/sts/a04br3/proprietary/vendor/bin/meta_tst:system/vendor/bin/meta_tst \
     vendor/sts/a04br3/proprietary/vendor/bin/mobile_log_d:system/vendor/bin/mobile_log_d \
-    vendor/sts/a04br3/proprietary/vendor/bin/mtkrild:system/vendor/bin/mtkrild \
     vendor/sts/a04br3/proprietary/vendor/bin/muxreport:system/vendor/bin/muxreport \
     vendor/sts/a04br3/proprietary/vendor/bin/netdiag:system/vendor/bin/netdiag \
     vendor/sts/a04br3/proprietary/vendor/bin/nvram_agent_binder:system/vendor/bin/nvram_agent_binder \
@@ -480,9 +479,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib/libpqservice.so:system/vendor/lib/libpqservice.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libratconfig.so:system/vendor/lib/libratconfig.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/librilmtk.so:system/vendor/lib/librilmtk.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/librilproxy.so:system/vendor/lib/librilproxy.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/librilproxyutils.so:system/vendor/lib/librilproxyutils.so \
     vendor/sts/a04br3/proprietary/vendor/lib/librrc.so:system/vendor/lib/librrc.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libsbox.so:system/vendor/lib/libsbox.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libshowlogo.so:system/vendor/lib/libshowlogo.so \
@@ -520,8 +516,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib/libwidevinehdcpinfo.so:system/vendor/lib/libwidevinehdcpinfo.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libyv12util.so:system/vendor/lib/libyv12util.so \
     vendor/sts/a04br3/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/mtk-ril.so:system/vendor/lib/mtk-ril.so \
-    vendor/sts/a04br3/proprietary/vendor/lib/mtk-rilproxy.so:system/vendor/lib/mtk-rilproxy.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/sts/a04br3/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -682,9 +676,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib64/libpqservice.so:system/vendor/lib64/libpqservice.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libpvrANDROID_WSEGL.so:system/vendor/lib64/libpvrANDROID_WSEGL.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libratconfig.so:system/vendor/lib64/libratconfig.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/librilmtk.so:system/vendor/lib64/librilmtk.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/librilproxy.so:system/vendor/lib64/librilproxy.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/librilproxyutils.so:system/vendor/lib64/librilproxyutils.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/librrc.so:system/vendor/lib64/librrc.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libsbox.so:system/vendor/lib64/libsbox.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libsink.so:system/vendor/lib64/libsink.so \
@@ -709,6 +700,4 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib64/libvt_avsync.so:system/vendor/lib64/libvt_avsync.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libwidevinehdcpinfo.so:system/vendor/lib64/libwidevinehdcpinfo.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libyv12util.so:system/vendor/lib64/libyv12util.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/mtk-ril.so:system/vendor/lib64/mtk-ril.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/mtk-rilproxy.so:system/vendor/lib64/mtk-rilproxy.so
+    vendor/sts/a04br3/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
