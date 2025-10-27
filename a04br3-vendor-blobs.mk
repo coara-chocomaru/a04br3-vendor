@@ -212,7 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/custom.conf:system/vendor/etc/custom.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/disableapplist.txt:system/etc/disableapplist.txt \
-    vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.conf:system/vendor/etc/ipsec/ipsec.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer:system/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der:system/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der:system/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der \
@@ -222,7 +221,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der:system/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der:system/vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:system/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der \
-    vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:system/vendor/etc/ipsec/ssl/openssl.cnf \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/strongswan.conf:system/vendor/etc/ipsec/strongswan.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/updown_script:system/vendor/etc/ipsec/updown_script \
     vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6c.conf:system/vendor/etc/wide-dhcpv6/dhcp6c.conf \
