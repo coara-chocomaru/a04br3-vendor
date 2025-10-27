@@ -225,6 +225,11 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:system/vendor/etc/ipsec/ssl/openssl.cnf \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/strongswan.conf:system/vendor/etc/ipsec/strongswan.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/updown_script:system/vendor/etc/ipsec/updown_script \
+    vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6c.conf:system/vendor/etc/wide-dhcpv6/dhcp6c.conf \
+    vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6c.script:system/vendor/etc/wide-dhcpv6/dhcp6c.script \
+    vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6cDNS.conf:system/vendor/etc/wide-dhcpv6/dhcp6cDNS.conf \
+    vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6cctlkey:system/vendor/etc/wide-dhcpv6/dhcp6cctlkey \
+    vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6s.conf:system/vendor/etc/wide-dhcpv6/dhcp6s.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
     vendor/sts/a04br3/proprietary/vendor/etc/mtklog-config.prop:system/vendor/etc/mtklog-config.prop \
     vendor/sts/a04br3/proprietary/vendor/etc/partition_permission.sh:system/vendor/etc/partition_permission.sh \
