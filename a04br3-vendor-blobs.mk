@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/bin/autobt:system/vendor/bin/autobt \
     vendor/sts/a04br3/proprietary/vendor/bin/autokd:system/vendor/bin/autokd \
     vendor/sts/a04br3/proprietary/vendor/bin/bmm050d:system/vendor/bin/bmm050d \
-    vendor/sts/a04br3/proprietary/vendor/bin/boot_logo_updater:system/vendor/bin/boot_logo_updater \
     vendor/sts/a04br3/proprietary/vendor/bin/ccci_fsd:system/vendor/bin/ccci_fsd \
     vendor/sts/a04br3/proprietary/vendor/bin/ccci_mdinit:system/vendor/bin/ccci_mdinit \
     vendor/sts/a04br3/proprietary/vendor/bin/dhcp6c:system/vendor/bin/dhcp6c \
@@ -132,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/bin/dmlog:system/vendor/bin/dmlog \
     vendor/sts/a04br3/proprietary/vendor/bin/downloader:system/vendor/bin/downloader \
     vendor/sts/a04br3/proprietary/vendor/bin/epdg_wod:system/vendor/bin/epdg_wod \
-    vendor/sts/a04br3/proprietary/vendor/bin/factory:system/vendor/bin/factory \
     vendor/sts/a04br3/proprietary/vendor/bin/fsck_msdos_mtk:system/vendor/bin/fsck_msdos_mtk \
     vendor/sts/a04br3/proprietary/vendor/bin/ged_srv:system/vendor/bin/ged_srv \
     vendor/sts/a04br3/proprietary/vendor/bin/gsm0710muxd:system/vendor/bin/gsm0710muxd \
@@ -146,10 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/bin/memorydumper:system/vendor/bin/memorydumper \
     vendor/sts/a04br3/proprietary/vendor/bin/memsicd:system/vendor/bin/memsicd \
     vendor/sts/a04br3/proprietary/vendor/bin/memsicd3416x:system/vendor/bin/memsicd3416x \
-    vendor/sts/a04br3/proprietary/vendor/bin/meta_tst:system/vendor/bin/meta_tst \
-    vendor/sts/a04br3/proprietary/vendor/bin/mobile_log_d:system/vendor/bin/mobile_log_d \
     vendor/sts/a04br3/proprietary/vendor/bin/muxreport:system/vendor/bin/muxreport \
-    vendor/sts/a04br3/proprietary/vendor/bin/netdiag:system/vendor/bin/netdiag \
     vendor/sts/a04br3/proprietary/vendor/bin/nvram_agent_binder:system/vendor/bin/nvram_agent_binder \
     vendor/sts/a04br3/proprietary/vendor/bin/nvram_daemon:system/vendor/bin/nvram_daemon \
     vendor/sts/a04br3/proprietary/vendor/bin/orientationd:system/vendor/bin/orientationd \
@@ -159,8 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/bin/resize_ext4:system/vendor/bin/resize_ext4 \
     vendor/sts/a04br3/proprietary/vendor/bin/rtt:system/vendor/bin/rtt \
     vendor/sts/a04br3/proprietary/vendor/bin/s62xd:system/vendor/bin/s62xd \
-    vendor/sts/a04br3/proprietary/vendor/bin/slpd:system/vendor/bin/slpd \
-    vendor/sts/a04br3/proprietary/vendor/bin/stp_dump3:system/vendor/bin/stp_dump3 \
     vendor/sts/a04br3/proprietary/vendor/bin/superumount:system/vendor/bin/superumount \
     vendor/sts/a04br3/proprietary/vendor/bin/terservice:system/vendor/bin/terservice \
     vendor/sts/a04br3/proprietary/vendor/bin/tertestclient:system/vendor/bin/tertestclient \
@@ -253,11 +246,8 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:system/vendor/etc/audio_param/Volume_AudioParam.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:system/vendor/etc/audio_param/Volume_ParamUnitDesc.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
-    vendor/sts/a04br3/proprietary/vendor/etc/cdma_ecc_list.xml:system/vendor/etc/cdma_ecc_list.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/cdma_ecc_list_ss.xml:system/vendor/etc/cdma_ecc_list_ss.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/custom.conf:system/vendor/etc/custom.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/disableapplist.txt:system/vendor/etc/disableapplist.txt \
-    vendor/sts/a04br3/proprietary/vendor/etc/ecc_list.xml:system/vendor/etc/ecc_list.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/factory.ini:system/vendor/etc/factory.ini \
     vendor/sts/a04br3/proprietary/vendor/etc/init/init.wod.rc:system/vendor/etc/init/init.wod.rc \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.conf:system/vendor/etc/ipsec/ipsec.conf \
@@ -281,7 +271,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/perfservscntbl.txt:system/vendor/etc/perfservscntbl.txt \
     vendor/sts/a04br3/proprietary/vendor/etc/radvd/radvd.conf:system/vendor/etc/radvd/radvd.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/resmonwhitelist.txt:system/vendor/etc/resmonwhitelist.txt \
-    vendor/sts/a04br3/proprietary/vendor/etc/slp_conf:system/vendor/etc/slp_conf \
     vendor/sts/a04br3/proprietary/vendor/etc/throttle.sh:system/vendor/etc/throttle.sh \
     vendor/sts/a04br3/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:system/vendor/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:system/vendor/etc/virtual-spn-conf-by-efpnn.xml \
