@@ -212,7 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/custom.conf:system/vendor/etc/custom.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/disableapplist.txt:system/vendor/etc/disableapplist.txt \
-    vendor/sts/a04br3/proprietary/vendor/etc/init/init.wod.rc:system/vendor/etc/init/init.wod.rc \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.conf:system/vendor/etc/ipsec/ipsec.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer:system/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der:system/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der \
@@ -226,8 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:system/vendor/etc/ipsec/ssl/openssl.cnf \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/strongswan.conf:system/vendor/etc/ipsec/strongswan.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/updown_script:system/vendor/etc/ipsec/updown_script \
-    vendor/sts/a04br3/proprietary/vendor/etc/ipsec/wod_cust.conf:system/vendor/etc/ipsec/wod_cust.conf \
-    vendor/sts/a04br3/proprietary/vendor/etc/ipsec/wod_optr.conf:system/vendor/etc/ipsec/wod_optr.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
     vendor/sts/a04br3/proprietary/vendor/etc/mtklog-config.prop:system/vendor/etc/mtklog-config.prop \
     vendor/sts/a04br3/proprietary/vendor/etc/partition_permission.sh:system/vendor/etc/partition_permission.sh \
