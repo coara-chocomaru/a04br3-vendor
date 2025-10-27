@@ -155,8 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/bin/rtt:system/vendor/bin/rtt \
     vendor/sts/a04br3/proprietary/vendor/bin/s62xd:system/vendor/bin/s62xd \
     vendor/sts/a04br3/proprietary/vendor/bin/superumount:system/vendor/bin/superumount \
-    vendor/sts/a04br3/proprietary/vendor/bin/terservice:system/vendor/bin/terservice \
-    vendor/sts/a04br3/proprietary/vendor/bin/tertestclient:system/vendor/bin/tertestclient \
     vendor/sts/a04br3/proprietary/vendor/bin/thermal_manager:system/vendor/bin/thermal_manager \
     vendor/sts/a04br3/proprietary/vendor/bin/thermald:system/vendor/bin/thermald \
     vendor/sts/a04br3/proprietary/vendor/bin/thermalindicator:system/vendor/bin/thermalindicator \
@@ -203,42 +201,8 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:system/vendor/etc/audio_param/Record_AudioParam.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:system/vendor/etc/audio_param/Record_ParamTreeView.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:system/vendor/etc/audio_param/Record_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:system/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:system/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:system/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml:system/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml:system/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:system/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml:system/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:system/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml:system/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml:system/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechUI_AudioParam.xml:system/vendor/etc/audio_param/SpeechUI_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:system/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:system/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:system/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:system/vendor/etc/audio_param/SpeechVol_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:system/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:system/vendor/etc/audio_param/Speech_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:system/vendor/etc/audio_param/Speech_ParamTreeView.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:system/vendor/etc/audio_param/Speech_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/USBCall_AudioParam.xml:system/vendor/etc/audio_param/USBCall_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml:system/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/USBDevice_AudioParam.xml:system/vendor/etc/audio_param/USBDevice_AudioParam.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml:system/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml:system/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:system/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml:system/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:system/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIPUI_AudioParam.xml:system/vendor/etc/audio_param/VoIPUI_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:system/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:system/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:system/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:system/vendor/etc/audio_param/VoIPVol_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:system/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:system/vendor/etc/audio_param/VoIP_AudioParam.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:system/vendor/etc/audio_param/VoIP_ParamTreeView.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:system/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:system/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:system/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:system/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml \
@@ -248,7 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/custom.conf:system/vendor/etc/custom.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/disableapplist.txt:system/vendor/etc/disableapplist.txt \
-    vendor/sts/a04br3/proprietary/vendor/etc/factory.ini:system/vendor/etc/factory.ini \
     vendor/sts/a04br3/proprietary/vendor/etc/init/init.wod.rc:system/vendor/etc/init/init.wod.rc \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.conf:system/vendor/etc/ipsec/ipsec.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer:system/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer \
@@ -272,15 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/radvd/radvd.conf:system/vendor/etc/radvd/radvd.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/resmonwhitelist.txt:system/vendor/etc/resmonwhitelist.txt \
     vendor/sts/a04br3/proprietary/vendor/etc/throttle.sh:system/vendor/etc/throttle.sh \
-    vendor/sts/a04br3/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:system/vendor/etc/virtual-spn-conf-by-efgid1.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:system/vendor/etc/virtual-spn-conf-by-efpnn.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:system/vendor/etc/virtual-spn-conf-by-efspn.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:system/vendor/etc/virtual-spn-conf-by-imsi.xml \
-    vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6c.conf:system/vendor/etc/wide-dhcpv6/dhcp6c.conf \
-    vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6c.script:system/vendor/etc/wide-dhcpv6/dhcp6c.script \
-    vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6cDNS.conf:system/vendor/etc/wide-dhcpv6/dhcp6cDNS.conf \
-    vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6cctlkey:system/vendor/etc/wide-dhcpv6/dhcp6cctlkey \
-    vendor/sts/a04br3/proprietary/vendor/etc/wide-dhcpv6/dhcp6s.conf:system/vendor/etc/wide-dhcpv6/dhcp6s.conf \
     vendor/sts/a04br3/proprietary/vendor/firmware/WIFI_RAM_CODE_MT6630:system/vendor/firmware/WIFI_RAM_CODE_MT6630 \
     vendor/sts/a04br3/proprietary/vendor/firmware/WMT.cfg:system/vendor/firmware/WMT.cfg \
     vendor/sts/a04br3/proprietary/vendor/firmware/mt6630_ant_m1.cfg:system/vendor/firmware/mt6630_ant_m1.cfg \
