@@ -211,7 +211,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:system/vendor/etc/audio_param/Volume_ParamUnitDesc.xml \
     vendor/sts/a04br3/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
     vendor/sts/a04br3/proprietary/vendor/etc/custom.conf:system/vendor/etc/custom.conf \
-    vendor/sts/a04br3/proprietary/vendor/etc/disableapplist.txt:system/etc/disableapplist.txt \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer:system/vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der:system/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der \
     vendor/sts/a04br3/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der:system/vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der \
@@ -233,7 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/etc/partition_permission.sh:system/vendor/etc/partition_permission.sh \
     vendor/sts/a04br3/proprietary/vendor/etc/perfservscntbl.txt:system/vendor/etc/perfservscntbl.txt \
     vendor/sts/a04br3/proprietary/vendor/etc/radvd/radvd.conf:system/vendor/etc/radvd/radvd.conf \
-    vendor/sts/a04br3/proprietary/vendor/etc/resmonwhitelist.txt:system/etc/resmonwhitelist.txt \
     vendor/sts/a04br3/proprietary/vendor/etc/throttle.sh:system/vendor/etc/throttle.sh \
     vendor/sts/a04br3/proprietary/vendor/firmware/WIFI_RAM_CODE_MT6630:system/vendor/firmware/WIFI_RAM_CODE_MT6630 \
     vendor/sts/a04br3/proprietary/vendor/firmware/WMT.cfg:system/vendor/firmware/WMT.cfg \
