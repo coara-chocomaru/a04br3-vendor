@@ -1,4 +1,11 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/priv-app/ConfigUpdater/ConfigUpdater.apk:system/priv-app/ConfigUpdater/ConfigUpdater.apk \
+    vendor/sts/a04br3/proprietary/priv-app/GmsCore/GmsCore.apk:system/priv-app/GmsCore/GmsCore.apk \
+    vendor/sts/a04br3/proprietary/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk:system/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk \
+    vendor/sts/a04br3/proprietary/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk:system/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk \
+    vendor/sts/a04br3/proprietary/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk:system/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk \
+    vendor/sts/a04br3/proprietary/priv-app/Phonesky/Phonesky.apk:system/priv-app/Phonesky/Phonesky.apk \
+    vendor/sts/a04br3/proprietary/priv-app/SetupWizard/SetupWizard.apk:system/priv-app/SetupWizard/SetupWizard.apk \
     vendor/sts/a04br3/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     vendor/sts/a04br3/proprietary/etc/sysconfig/google_exclusives_enable.xml:system/etc/sysconfig/google_exclusives_enable.xml \
     vendor/sts/a04br3/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
