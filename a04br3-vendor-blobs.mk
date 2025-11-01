@@ -1,4 +1,14 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
+    vendor/sts/a04br3/proprietary/etc/sysconfig/google_exclusives_enable.xml:system/etc/sysconfig/google_exclusives_enable.xml \
+    vendor/sts/a04br3/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
+    vendor/sts/a04br3/proprietary/etc/preferred-apps/google.xml:system//etc/preferred-apps/google.xml \
+    vendor/sts/a04br3/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
+    vendor/sts/a04br3/proprietary/etc/default-permissions/default-permissions.xml:system/etc/default-permissions/default-permissions.xml \
+    vendor/sts/a04br3/proprietary/etc/default-permissions/gapps-default-permissions.xml:system/etc/default-permissions/gapps-default-permissions.xml \
+    vendor/sts/a04br3/proprietary/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk \
+    vendor/sts/a04br3/proprietary/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk \
+    vendor/sts/a04br3/proprietary/app/GoogleExtShared/GoogleExtShared.apk:system/app/GoogleExtShared/GoogleExtShared.apk \
     vendor/sts/a04br3/proprietary/vendor/lib64/lib_uree_mtk_video_secure_al.so:system/vendor/lib64/lib_uree_mtk_video_secure_al.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/liburee_meta_drmkeyinstall_v2.so:system/vendor/lib64/liburee_meta_drmkeyinstall_v2.so \
     vendor/sts/a04br3/proprietary/vendor/lib/lib_uree_mtk_video_secure_al.so:system/vendor/lib/lib_uree_mtk_video_secure_al.so \
