@@ -1,6 +1,17 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.google.android.media.effects
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := proprietary/framework/com.google.android.media.effects.jar
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_DEX_PREOPT := true
+LOCAL_MODULE_SUFFIX := .jar
+LOCAL_MODULE_PATH := $(TARGET_OUT)/framework
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleServicesFramework
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
@@ -43,6 +54,15 @@ LOCAL_DEX_PREOPT := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := GoogleExtShared
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := proprietary/app/GoogleExtShared/GoogleExtShared.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleContactsSyncAdapter
@@ -92,6 +112,17 @@ LOCAL_MODULE := ConfigUpdater
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_SRC_FILES := proprietary/priv-app/ConfigUpdater/ConfigUpdater.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GoogleLoginService
+LOCAL_MODULE_TAGS := optional
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_SRC_FILES := proprietary/priv-app/GoogleLoginService/GoogleLoginService.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
