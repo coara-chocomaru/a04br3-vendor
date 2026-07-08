@@ -3,10 +3,10 @@ name: Check Vendor Blobs and Generate Unregistered Files Report
 on:
   push:
     branches:
-      - main3
+      - pt3
   pull_request:
     branches:
-      - main3
+      - pt3
 
 jobs:
   check-blobs:
