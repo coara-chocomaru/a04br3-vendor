@@ -637,4 +637,31 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/vendor/lib64/libvt_avsync.so:system/vendor/lib64/libvt_avsync.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libwidevinehdcpinfo.so:system/vendor/lib64/libwidevinehdcpinfo.so \
     vendor/sts/a04br3/proprietary/vendor/lib64/libyv12util.so:system/vendor/lib64/libyv12util.so \
-    vendor/sts/a04br3/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
+    vendor/sts/a04br3/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/sts/a04br3/proprietary/bin/cameraserver:system/bin/cameraserver \
+    vendor/sts/a04br3/proprietary/etc/init/cameraserver.rc:system/etc/init/cameraserver.rc \
+    vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.camera.xml:system/etc/permissions/android.hware.camera.xml \
+    vendor/sts/a04br3/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+    vendor/sts/a04br3/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+    vendor/sts/a04br3/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/sts/a04br3/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/sts/a04br3/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/sts/a04br3/proprietary/lib64/hw/camera.default.so:system/lib64/hw/camera.default.so \
+    vendor/sts/a04br3/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
+    vendor/sts/a04br3/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
+    vendor/sts/a04br3/proprietary/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
+    vendor/sts/a04br3/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/hw/camera.mt8167.so:system/vendor/lib/hw/camera.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/lib3a.so:system/vendor/lib/lib3a.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/libcam.hal3a.v3.dng.so:system/vendor/lib/libcam.hal3a.v3.dng.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/libcam.hal3a.v3.so:system/vendor/lib/libcam.hal3a.v3.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/libcamalgo.so:system/vendor/lib/libcamalgo.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/libcameracustom.so:system/vendor/lib/libcameracustom.so \
+    vendor/sts/a04br3/proprietary/vendor/lib/libmtkcam_fwkutils.so:system/vendor/lib/libmtkcam_fwkutils.so \
+    vendor/sts/a04br3/proprietary/vendor/lib64/hw/camera.mt8167.so:system/vendor/lib64/hw/camera.mt8167.so \
+    vendor/sts/a04br3/proprietary/vendor/lib64/lib3a.so:system/vendor/lib64/lib3a.so \
+    vendor/sts/a04br3/proprietary/vendor/lib64/libcam.hal3a.v3.dng.so:system/vendor/lib64/libcam.hal3a.v3.dng.so \
+    vendor/sts/a04br3/proprietary/vendor/lib64/libcam.hal3a.v3.so:system/vendor/lib64/libcam.hal3a.v3.so \
+    vendor/sts/a04br3/proprietary/vendor/lib64/libcamalgo.so:system/vendor/lib64/libcamalgo.so \
+    vendor/sts/a04br3/proprietary/vendor/lib64/libcameracustom.so:system/vendor/lib64/libcameracustom.so \
+    vendor/sts/a04br3/proprietary/vendor/lib64/libmtkcam_fwkutils.so:system/vendor/lib64/libmtkcam_fwkutils.so
