@@ -130,7 +130,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Camera
+LOCAL_MODULE := MtKCamera
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/vendor/app/Camera/Camera.apk
 LOCAL_MODULE_CLASS := APPS
