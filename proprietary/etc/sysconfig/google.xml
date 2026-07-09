@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <allow-in-power-save package="com.google.android.gms" />
+    <allow-in-data-usage-save package="com.google.android.gms" />
+    <allow-unthrottled-location package="com.google.android.gms" />
+    <allow-ignore-location-settings package="com.google.android.gms" />
+
+
+    <!-- Certain broadcasts must still go to legacy implicit receivers -->
+    <allow-implicit-broadcast action="com.google.android.checkin.CHECKIN_COMPLETE" />
+    <allow-implicit-broadcast action="com.google.gservices.intent.action.GSERVICES_CHANGED" />
+    <allow-implicit-broadcast action="com.google.gservices.intent.action.GSERVICES_OVERRIDE" />
+    <allow-implicit-broadcast action="com.google.android.onetimeinitializer.ONE_TIME_INITIALIZED" />
+
+    <!-- Play Store likewise must have network access to support other applications. -->
+    <allow-in-power-save-except-idle package="com.android.vending" />
+
+    <!-- If the volta app is pre-installed (for monitoring power use), let it do checkins. -->
+    <allow-in-power-save package="com.google.android.volta" />
+
+    <!-- These Google applications all handle URLs to their websites by default -->
+
+    <!-- Apps below are required on all GMS devices -->
+    <app-link package="com.android.vending" />
+    <app-link package="com.google.android.music" />
+
+    <!-- Apps below are optional on GMS devices -->
+    <app-link package="com.google.android.calendar" />
+
+    <!-- These are the packages that are white-listed to be able to run as system user -->
+    <system-user-whitelisted-app package="com.android.vending" />
+    <system-user-whitelisted-app package="com.google.android.gms" />
+    <system-user-whitelisted-app package="com.google.android.gms.policy_auth" />
+    <system-user-whitelisted-app package="com.google.android.play.games" />
+
+    <!-- These are the packages that are uninstalled for system user -->
+    <!-- Apps below are required on all GMS devices -->
+    <system-user-blacklisted-app package="com.google.android.googlequicksearchbox" />
+    <!-- Apps below are optional on GMS devices -->
+    <system-user-blacklisted-app package="com.google.android.launcher" />
+
+    <!-- Specify the explicit set of other applications that AI services are allowed to
+         interact with, including the providers that back the implementation of the APIs
+         provided by the package. -->
+    <allow-association target="com.google.android.as" allowed="com.android.bluetooth" />
+    <allow-association target="com.google.android.as" allowed="com.android.providers.contacts" />
+    <allow-association target="com.google.android.as" allowed="com.android.providers.media" />
+    <allow-association target="com.google.android.as" allowed="com.android.systemui" />
+    <allow-association target="com.google.android.as" allowed="com.google.android.gms" />
+    <allow-association target="com.google.android.as" allowed="com.google.android.gsf" />
+    <allow-association target="com.google.android.as" allowed="com.google.android.providers.media.module" />
+
+    <!-- Specify the explicit set of other applications whose app data directories are
+        accessible by other applications. -->
+    <app-data-isolation-whitelisted-app package="com.google.android.gms" />
+
+    <!-- Whitelist of packages that eligible for rollback -->
+    <rollback-whitelisted-app package="com.android.vending" />
+</config>

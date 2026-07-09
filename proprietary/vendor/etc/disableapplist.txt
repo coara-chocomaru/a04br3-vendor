@@ -1,0 +1,6 @@
+com.android.email
+com.android.exchange
+com.android.providers.calendar
+com.android.providers.contacts
+com.android.providers.telephony
+
