@@ -170,16 +170,6 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleCamera
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/app/GoogleCamera/GoogleCamera.apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_DEX_PREOPT := true
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := LatinIMEGoogle
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk
