@@ -1,4 +1,6 @@
 LOCAL_PATH := $(call my-dir)
+include $(LOCAL_PATH)/../../device/sts/a04br3/remove.mk
+
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.google.android.media.effects
