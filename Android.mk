@@ -12,6 +12,17 @@ LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := Chrome
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := proprietary/app/Chrome/Chrome.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := NexusLauncherIcons
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/app/NexusLauncherIcons/NexusLauncherIcons.apk
