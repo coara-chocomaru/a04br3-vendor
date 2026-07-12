@@ -1,4 +1,15 @@
 PRODUCT_COPY_FILES += \
+    vendor/sts/a04br3/proprietary/app/WallpapersBReel/lib/arm64/libgdx.so:system/app/WallpapersBReel/lib/arm64/libgdx.so \
+    vendor/sts/a04br3/proprietary/app/WallpapersBReel/lib/arm64/libgeswallpapers-jni.so:system/app/WallpapersBReel/lib/arm64/libgeswallpapers-jni.so \
+    vendor/sts/a04br3/proprietary/app/WallpapersBReel/lib/arm64/libjpeg.so:system/app/WallpapersBReel/lib/arm64/libjpeg.so \
+    vendor/sts/a04br3/proprietary/priv-app/Velvet/lib/arm64/libbrotli.so:system/priv-app/Velvet/lib/arm64/libbrotli.so \
+    vendor/sts/a04br3/proprietary/priv-app/Velvet/lib/arm64/libcronet.so:system/priv-app/Velvet/lib/arm64/libcronet.so \
+    vendor/sts/a04br3/proprietary/priv-app/Velvet/lib/arm64/libframesequence.so:system/priv-app/Velvet/lib/arm64/libframesequence.so \
+    vendor/sts/a04br3/proprietary/priv-app/Velvet/lib/arm64/libgoogle_speech_jni.so:system/priv-app/Velvet/lib/arm64/libgoogle_speech_jni.so \
+    vendor/sts/a04br3/proprietary/priv-app/Velvet/lib/arm64/libgoogle_speech_micro_jni.so:system/priv-app/Velvet/lib/arm64/libgoogle_speech_micro_jni.so \
+    vendor/sts/a04br3/proprietary/priv-app/Velvet/lib/arm64/libnativecrashreporter.so:system/priv-app/Velvet/lib/arm64/libnativecrashreporter.so \
+    vendor/sts/a04br3/proprietary/priv-app/Velvet/lib/arm64/liboffline_actions_jni.so:system/priv-app/Velvet/lib/arm64/liboffline_actions_jni.so \
+    vendor/sts/a04br3/proprietary/priv-app/Velvet/lib/arm64/libthird_party_brotli_dec_jni.so:system/priv-app/Velvet/lib/arm64/libthird_party_brotli_dec_jni.so \
     vendor/sts/a04br3/proprietary/etc/sysconfig/google_exclusives_enable.xml:system/etc/sysconfig/google_exclusives_enable.xml \
     vendor/sts/a04br3/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
     vendor/sts/a04br3/proprietary/etc/preferred-apps/google.xml:system//etc/preferred-apps/google.xml \
