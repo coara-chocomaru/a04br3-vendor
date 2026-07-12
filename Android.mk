@@ -1,47 +1,4 @@
 LOCAL_PATH := $(call my-dir)
-
-REMOVE_APPS := \
-    Calendar \
-    Camera2 \
-    DeskClock \
-    Email \
-    ExactCalculator \
-    Calculator \
-    Jelly \
-    LatinIME \
-    LockClock \
-    WallpaperPicker \
-    AudioFX \
-    Contacts \
-    Eleven \
-    Gallery2 \
-    Recorder \
-    Trebuchet \
-    Messaging \
-    Exchange2 \
-    BlockedNumberProvider
-
-REMOVE_TELEPHONY := \
-    Dialer \
-    Telephony \
-    TelephonyProvider \
-    TeleService \
-    InCallUi \
-    CarrierConfig \
-    SimToolkit \
-    Stk \
-    Mms \
-    EmailProvider \
-    com.android.email \
-    com.android.exchange \
-    com.android.providers.blockednumber
-
-REMOVE_NFC := \
-    Nfc \
-    Tag
-
-PRODUCT_PACKAGES := $(filter-out $(REMOVE_APPS) $(REMOVE_TELEPHONY) $(REMOVE_NFC), $(PRODUCT_PACKAGES))
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.google.android.media.effects
 LOCAL_MODULE_TAGS := optional
@@ -59,7 +16,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/app/NexusLauncherIcons/NexusLauncherIcons.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_DEX_PREOPT := true
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -70,7 +27,7 @@ LOCAL_SRC_FILES := proprietary/priv-app/Velvet/Velvet.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
-LOCAL_DEX_PREOPT := false
+LOCAL_DEX_PREOPT := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
