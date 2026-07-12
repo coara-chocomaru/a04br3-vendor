@@ -41,7 +41,8 @@ PRODUCT_COPY_FILES += \
     vendor/sts/a04br3/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml \
     vendor/sts/a04br3/proprietary/etc/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
     vendor/sts/a04br3/proprietary/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
-    vendor/sts/a04br3/proprietary/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
+    vendor/sts/a04br3/proprietary/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
+    vendor/sts/a04br3/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     vendor/sts/a04br3/proprietary/etc/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml \
     vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
     vendor/sts/a04br3/proprietary/etc/permissions/android.hardware.microphone.xml:system/etc/permissions/android.hardware.microphone.xml \
