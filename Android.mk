@@ -5,7 +5,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/framework/com.google.android.media.effects.jar
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := .jar
 LOCAL_MODULE_PATH := $(TARGET_OUT)/framework
 LOCAL_CERTIFICATE := PRESIGNED
@@ -60,7 +59,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -72,7 +70,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -85,7 +82,6 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRODUCT_MODULE := true
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_RELATIVE_PATH := GmsCore
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_NO_STANDARD_LIBRARIES := true
@@ -100,7 +96,6 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_RELATIVE_PATH := GmsCore/app_chimera/m
 LOCAL_NO_STANDARD_LIBRARIES := true
 include $(BUILD_PREBUILT)
@@ -114,7 +109,6 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_RELATIVE_PATH := GmsCore/app_chimera/m
 LOCAL_NO_STANDARD_LIBRARIES := true
 include $(BUILD_PREBUILT)
@@ -128,7 +122,6 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_RELATIVE_PATH := GmsCore/app_chimera/m
 LOCAL_NO_STANDARD_LIBRARIES := true
 include $(BUILD_PREBUILT)
@@ -141,7 +134,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -152,7 +144,6 @@ LOCAL_SRC_FILES := proprietary/app/Chrome/Chrome.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -164,7 +155,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -176,7 +166,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -187,7 +176,6 @@ LOCAL_SRC_FILES := proprietary/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncA
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -198,7 +186,6 @@ LOCAL_SRC_FILES := proprietary/app/GoogleExtShared/GoogleExtShared.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -209,7 +196,6 @@ LOCAL_SRC_FILES := proprietary/app/CalculatorGooglePrebuilt/CalculatorGooglePreb
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -220,7 +206,6 @@ LOCAL_SRC_FILES := proprietary/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -231,7 +216,6 @@ LOCAL_SRC_FILES := proprietary/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -242,7 +226,6 @@ LOCAL_SRC_FILES := proprietary/app/NexusWallpapersStubPrebuilt/NexusWallpapersSt
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -253,7 +236,6 @@ LOCAL_SRC_FILES := proprietary/app/Photos/Photos.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -264,7 +246,6 @@ LOCAL_SRC_FILES := proprietary/app/PlayAutoInstallConfig/PlayAutoInstallConfig.a
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -275,7 +256,6 @@ LOCAL_SRC_FILES := proprietary/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoog
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -286,7 +266,6 @@ LOCAL_SRC_FILES := proprietary/app/PrebuiltGmail/PrebuiltGmail.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -297,7 +276,6 @@ LOCAL_SRC_FILES := proprietary/app/WallpaperPickerGooglePrebuilt/WallpaperPicker
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -308,7 +286,6 @@ LOCAL_SRC_FILES := proprietary/app/WallpapersBReel/WallpapersBReel.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -319,7 +296,6 @@ LOCAL_SRC_FILES := proprietary/app/WallpapersUsTwo/WallpapersUsTwo.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -330,7 +306,6 @@ LOCAL_SRC_FILES := proprietary/app/GoogleContactsSyncAdapter/GoogleContactsSyncA
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -342,7 +317,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -354,7 +328,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -366,7 +339,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -378,7 +350,6 @@ LOCAL_SRC_FILES := proprietary/priv-app/GooglePartnerSetup/GooglePartnerSetup.ap
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -390,7 +361,6 @@ LOCAL_SRC_FILES := proprietary/priv-app/SetupWizard/SetupWizard.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -402,7 +372,6 @@ LOCAL_SRC_FILES := proprietary/priv-app/GoogleOneTimeInitializer/GoogleOneTimeIn
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -414,7 +383,6 @@ LOCAL_SRC_FILES := proprietary/priv-app/ConfigUpdater/ConfigUpdater.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
@@ -426,6 +394,5 @@ LOCAL_SRC_FILES := proprietary/priv-app/GoogleLoginService/GoogleLoginService.ap
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := true
-LOCAL_DEX_PREOPT_FLAGS := --compiler-filter=speed --no-generate-debug-info
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
